@@ -276,8 +276,7 @@ class Mapping:
 
     def _convert_dict_to_new_format(self, mapping_dict: Dict) -> Dict:
         path = self.paths["json_template"]
-        dirname = os.path.dirname(__file__)
-        file_path = os.path.join(dirname, f"{path}/mapping_template.json")
+        file_path = f"{path}/mapping_template.json"
 
         with open(file_path, "r") as template_json:
             template_data = template_json.read()

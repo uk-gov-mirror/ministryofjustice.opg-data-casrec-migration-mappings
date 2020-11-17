@@ -1,5 +1,6 @@
 import click as click
-from mapping_all_sheets import Mapping
+
+from app.mapping_all_sheets import Mapping
 
 
 @click.command()
@@ -9,7 +10,7 @@ from mapping_all_sheets import Mapping
 def main(new_format):
 
     mapping_doc_name = "Casrec_Mapping_Document_v0.1.xlsx"
-    output_dir = "./mapping_definitions"
+    output_dir = "mapping_definitions"
 
     mapping = Mapping(
         mapping_doc_name=mapping_doc_name,
