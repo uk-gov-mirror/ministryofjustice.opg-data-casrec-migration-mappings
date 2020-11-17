@@ -1,0 +1,20 @@
+version: 2.1
+workflows:
+  pull_request:
+    jobs:
+      - lint:
+          name: version mappings
+          filters: { branches: { ignore: [ main ] } }
+jobs:
+  lint:
+    docker:
+      - image: circleci/python:3
+        auth:
+          username: $DOCKER_USER
+          password: $DOCKER_ACCESS_TOKEN
+    resource_class: small
+    working_directory: ~/project
+    steps:
+      - run:
+          name: do nothing yet
+          command: echo "Doing nothing yet..."

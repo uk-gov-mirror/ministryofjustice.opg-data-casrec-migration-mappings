@@ -1,0 +1,44 @@
+# Python
+*venv
+/.idea
+__pycache__/
+*.pyc
+
+# Terraform
+**/terraform.tfstate*
+.terraform
+.notes
+.vs
+
+# Virtual Environments
+.venv
+
+# Ruby
+*.lock
+
+# IDE & development
+.vscode/
+*.iml
+
+# Mac
+.DS_Store
+
+# Test environment
+*generated.postman_environment.json
+process.yml
+.pytest_cache/
+.coverage
+
+# Misc
+*crash.log
+
+*.csv
+db-snapshots/*.sql
+
+casrec_data/do_anonymising/change_log.txt
+*PLAY*
+.pg_restore.api.log
+sirius-snapshot
+data/anon_data/
+*terraform.output.json
+*etl*.sql

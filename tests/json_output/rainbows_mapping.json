@@ -1,0 +1,170 @@
+{
+    "id": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": ""
+        },
+        "transform_casrec": {
+            "casrec_table": "colours",
+            "casrec_column_name": "colour_identifier",
+            "alias": "colour_identifier",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": ""
+        },
+        "acquire_target_ids": {
+            "calculated": ""
+        }
+    },
+    "red": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": ""
+        },
+        "transform_casrec": {
+            "casrec_table": "colours",
+            "casrec_column_name": "ruby",
+            "alias": "ruby",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": ""
+        },
+        "acquire_target_ids": {
+            "calculated": ""
+        }
+    },
+    "orange": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": ""
+        },
+        "transform_casrec": {
+            "casrec_table": "colours",
+            "casrec_column_name": "tangerine",
+            "alias": "tangerine",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": ""
+        },
+        "acquire_target_ids": {
+            "calculated": ""
+        }
+    },
+    "yellow": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": ""
+        },
+        "transform_casrec": {
+            "casrec_table": "colours",
+            "casrec_column_name": "amber",
+            "alias": "amber",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": ""
+        },
+        "acquire_target_ids": {
+            "calculated": ""
+        }
+    },
+    "green": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": ""
+        },
+        "transform_casrec": {
+            "casrec_table": "colours",
+            "casrec_column_name": "verdant",
+            "alias": "verdant",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": ""
+        },
+        "acquire_target_ids": {
+            "calculated": ""
+        }
+    },
+    "blue": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": ""
+        },
+        "transform_casrec": {
+            "casrec_table": "colours",
+            "casrec_column_name": "cerulean",
+            "alias": "cerulean",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": ""
+        },
+        "acquire_target_ids": {
+            "calculated": ""
+        }
+    },
+    "indigo": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": ""
+        },
+        "transform_casrec": {
+            "casrec_table": "colours",
+            "casrec_column_name": "dark_blue",
+            "alias": "dark_blue",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": ""
+        },
+        "acquire_target_ids": {
+            "calculated": ""
+        }
+    },
+    "violet": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": ""
+        },
+        "transform_casrec": {
+            "casrec_table": "colours",
+            "casrec_column_name": "purple",
+            "alias": "purple",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": ""
+        },
+        "acquire_target_ids": {
+            "calculated": ""
+        }
+    }
+}
