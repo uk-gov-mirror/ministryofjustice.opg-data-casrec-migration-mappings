@@ -16,7 +16,7 @@ class Mapping:
 
         self.paths = {
             "mapping_spreadsheet": "./mapping_spreadsheet/",
-            "json_template": "./template",
+            "json_template": "./app/template",
             "mapping_definitions_output": "./mapping_definitions",
             "lookup_tables_output": "./mapping_definitions/lookups",
             "summary_output": "./docs",

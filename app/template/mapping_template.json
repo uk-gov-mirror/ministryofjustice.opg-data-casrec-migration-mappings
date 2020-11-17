@@ -14,10 +14,5 @@
         "lookup_table",
         "default_value",
         "calculated"
-    ],
-    "calculate_things": [
-        "lookup_table",
-        "default_value",
-        "calculated"
     ]
 }
