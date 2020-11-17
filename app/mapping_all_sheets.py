@@ -39,19 +39,7 @@ class Mapping:
             "is_complete",
         ]
         self.columns = columns if len(columns) > 0 else self.default_columns
-
-        self.summary = {
-            "worksheets": {},
-            "total": {
-                "worksheets": {"total_sheets": 0, "total_complete": 0,},
-                "fields": {
-                    "total_fields": 0,
-                    "total_unmapped": 0,
-                    "total_mapped": 0,
-                    "percentage_complete": 0,
-                },
-            },
-        }
+        self.summary = {}
 
     def _apply_column_alias(self, df: pd.DataFrame) -> pd.DataFrame:
         """
@@ -291,6 +279,13 @@ class Mapping:
         return from_template
 
     def generate_json_files(self):
+
+        path = self.paths["json_template"]
+        file_path = f"{path}/summary_template.json"
+
+        with open(file_path, "r") as template_json:
+            template_data = template_json.read()
+            self.summary = json.loads(template_data)
 
         all_modules = self.get_sheets_as_dataframes()
 
