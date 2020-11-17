@@ -10,11 +10,7 @@ pd.options.mode.chained_assignment = None
 
 class Mapping:
     def __init__(
-        self,
-        mapping_doc_name: str,
-        output_folder: str,
-        columns: List[str] = [],
-        new_format: bool = False,
+        self, mapping_doc_name: str, columns: List[str] = [], new_format: bool = False,
     ):
 
         self.paths = {
