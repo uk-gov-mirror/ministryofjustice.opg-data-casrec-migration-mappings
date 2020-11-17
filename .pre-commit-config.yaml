@@ -16,13 +16,24 @@ repos:
       - id: trailing-whitespace
       - id: detect-private-key
       - id: flake8
+      - id: check-json
       - id: trailing-whitespace
         args: [--markdown-linebreak-ext=md]
+      - id: pretty-format-json
+        args: [
+          '--no-sort-keys',
+          '--autofix',
+          '--indent', '4'
+        ]
   - repo: https://github.com/ambv/black
     rev: stable
     hooks:
       - id: black
         language_version: python3
+  - repo: https://github.com/asottile/reorder_python_imports
+    rev: v2.3.6
+    hooks:
+      - id: reorder-python-imports
 #  - repo: https://github.com/Yelp/detect-secrets
 #    rev: v0.13.0
 #    hooks:
