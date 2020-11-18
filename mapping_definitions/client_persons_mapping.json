@@ -931,8 +931,8 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": "Todays date",
-            "calculated": ""
+            "default_value": "",
+            "calculated": "current_date"
         }
     },
     "deputyreferencenumber": {
@@ -1435,8 +1435,8 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": "Todays date",
-            "calculated": ""
+            "default_value": "",
+            "calculated": "current_date"
         }
     },
     "executor_id": {

@@ -103,8 +103,8 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": "Todays Date",
-            "calculated": ""
+            "default_value": "",
+            "calculated": "current_date"
         }
     }
 }
