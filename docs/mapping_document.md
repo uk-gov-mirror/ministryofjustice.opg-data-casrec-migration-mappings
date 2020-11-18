@@ -23,6 +23,7 @@ If something goes wrong with a sheet, we can recreate them using the little scri
 | Casrec   | casrec_table            |              | Must match table name exactly   |
 | Casrec   | casrec_column_name      |              | Must match column name exactly* |
 | Analysis | requires_transformation |              | Choose from list (see below)    |
+| Analysis | calculated              |              | Choose from list (see below)    |
 | Analysis | default_value           |              | If required                     |
 | Analysis | is_complete             |              | Yes or No                       |
 | Analysis | comments                |              |                                 |
@@ -56,6 +57,14 @@ If something goes wrong with a sheet, we can recreate them using the little scri
 * `unique_number` generates a unique 12 digit number
 
   These are just the basics at the moment, more will be added as we need them.
+
+#### calculated
+
+​	To be chosen from a list of available calculations, current list is:
+
+* `current_date`  inserts the current date
+
+  As above, these are just the basics at the moment, more will be added as we need them.
 
 #### lookup_table
 
