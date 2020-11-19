@@ -15,9 +15,6 @@
             "lookup_table": "",
             "default_value": "",
             "calculated": ""
-        },
-        "acquire_target_ids": {
-            "calculated": ""
         }
     },
     "red": {
@@ -35,9 +32,6 @@
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "",
-            "calculated": ""
-        },
-        "acquire_target_ids": {
             "calculated": ""
         }
     },
@@ -57,9 +51,6 @@
             "lookup_table": "",
             "default_value": "",
             "calculated": ""
-        },
-        "acquire_target_ids": {
-            "calculated": ""
         }
     },
     "yellow": {
@@ -77,9 +68,6 @@
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "",
-            "calculated": ""
-        },
-        "acquire_target_ids": {
             "calculated": ""
         }
     },
@@ -99,9 +87,6 @@
             "lookup_table": "",
             "default_value": "",
             "calculated": ""
-        },
-        "acquire_target_ids": {
-            "calculated": ""
         }
     },
     "blue": {
@@ -119,9 +104,6 @@
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "",
-            "calculated": ""
-        },
-        "acquire_target_ids": {
             "calculated": ""
         }
     },
@@ -141,9 +123,6 @@
             "lookup_table": "",
             "default_value": "",
             "calculated": ""
-        },
-        "acquire_target_ids": {
-            "calculated": ""
         }
     },
     "violet": {
@@ -161,9 +140,6 @@
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "",
-            "calculated": ""
-        },
-        "acquire_target_ids": {
             "calculated": ""
         }
     }
