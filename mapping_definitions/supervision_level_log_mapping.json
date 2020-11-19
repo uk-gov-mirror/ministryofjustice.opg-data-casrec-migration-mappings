@@ -19,7 +19,7 @@
     },
     "order_id": {
         "mapping_status": {
-            "is_complete": false
+            "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
@@ -50,7 +50,7 @@
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "",
-            "calculated": ""
+            "calculated": "current_date"
         }
     },
     "createddate": {
@@ -68,12 +68,12 @@
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "",
-            "calculated": ""
+            "calculated": "current_date"
         }
     },
     "supervisionlevel": {
         "mapping_status": {
-            "is_complete": false
+            "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
@@ -84,7 +84,7 @@
             "casrec_column_name": "",
             "alias": "",
             "requires_transformation": "",
-            "lookup_table": "",
+            "lookup_table": "supervision_level_lookup",
             "default_value": "",
             "calculated": ""
         }
@@ -109,7 +109,7 @@
     },
     "assetlevel": {
         "mapping_status": {
-            "is_complete": false
+            "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
@@ -120,7 +120,7 @@
             "casrec_column_name": "",
             "alias": "",
             "requires_transformation": "",
-            "lookup_table": "",
+            "lookup_table": "asset_level_lookup",
             "default_value": "",
             "calculated": ""
         }
