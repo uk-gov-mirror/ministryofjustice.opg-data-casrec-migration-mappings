@@ -2,11 +2,15 @@ version: 2.1
 workflows:
   pull_request:
     jobs:
-      - lint:
+      - terraform_command:
+          name: create s3 bucket
+          tf_workspace: development
+          filters: { branches: { ignore: [ main ] } }
+      - run_version_mappings:
           name: version mappings
           filters: { branches: { ignore: [ main ] } }
 jobs:
-  lint:
+  run_version_mappings:
     docker:
       - image: circleci/python:3
         auth:
@@ -18,3 +22,64 @@ jobs:
       - run:
           name: do nothing yet
           command: echo "Doing nothing yet..."
+
+  terraform_command:
+    executor: terraform/terraform
+    resource_class: small
+    parameters:
+      tf_workspace:
+        description: terraform workspace
+        type: string
+        default: ""
+      tf_command:
+        description: terraform command
+        type: string
+    environment:
+      WORKSPACE: << parameters.tf_workspace >>
+    working_directory: ~/project/<< parameters.tf_tier >>
+    steps:
+      - checkout:
+          path: ~/project
+      - terraform/install
+      - run:
+          name: Initialize
+          command: terraform init
+      - run:
+          name: Set environment
+          command: export TF_WORKSPACE=<< parameters.tf_workspace >> $BASH_ENV
+      - run:
+          name: Run << parameters.tf_command >>
+          command: terraform << parameters.tf_command >>
+
+orbs:
+  terraform:
+    executors:
+      terraform:
+        docker:
+          - image: circleci/python:3
+            auth:
+              username: $DOCKER_USER
+              password: $DOCKER_ACCESS_TOKEN
+        resource_class: small
+        environment:
+          TF_VERSION: 0.13.5
+          TF_SHA256SUM: f7b7a7b1bfbf5d78151cfe3d1d463140b5fd6a354e71a7de2b5644e652ca5147
+          TF_CLI_ARGS_plan: -input=false -lock=false
+          TF_CLI_ARGS_apply: -input=false -auto-approve
+          TF_CLI_ARGS_destroy: -input=false -auto-approve
+          TF_CLI_ARGS_init: -input=false -upgrade=true -reconfigure
+    commands:
+      install:
+        steps:
+          - run:
+              name: Download Terraform
+              command: curl -sfSO https://releases.hashicorp.com/terraform/${TF_VERSION}/terraform_${TF_VERSION}_linux_amd64.zip
+          - run:
+              name: Add Terraform SHA256SUM
+              command: echo "${TF_SHA256SUM} terraform_${TF_VERSION}_linux_amd64.zip" > SHA256SUMS
+          - run:
+              name: Check Terraform SHA256SUM
+              command: sha256sum -c --status SHA256SUMS
+          - run:
+              name: Install Terraform
+              command: sudo unzip terraform_${TF_VERSION}_linux_amd64.zip -d /bin
