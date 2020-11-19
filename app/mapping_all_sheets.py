@@ -11,16 +11,22 @@ pd.options.mode.chained_assignment = None
 
 class Mapping:
     def __init__(
-        self, mapping_doc_name: str, columns: List[str] = [], new_format: bool = False,
+        self,
+        mapping_doc_name: str,
+        columns: List[str] = [],
+        new_format: bool = False,
+        file_paths: dict = {},
     ):
 
-        self.paths = {
+        self.default_paths = {
             "mapping_spreadsheet": "./mapping_spreadsheet/",
             "json_template": "./app/template",
             "mapping_definitions_output": "./mapping_definitions",
             "lookup_tables_output": "./mapping_definitions/lookups",
             "summary_output": "./docs",
         }
+
+        self.paths = file_paths if len(file_paths) > 0 else self.default_paths
         self.excel_doc = mapping_doc_name
         self.index_column = "column_name"
         self.source_column_name = "casrec_column_name"
