@@ -33,6 +33,7 @@ jobs:
         default: "pull_request"
     working_directory: ~/project
     steps:
+      - checkout
       - run:
           name: install requirements
           command: pip3 install -r requirements.txt
@@ -40,7 +41,7 @@ jobs:
           name: recreate json files and submit new version
           command: |
             export GIT_COMMIT=${CIRCLE_SHA1:0:7}
-            av python3 app.py --commit ${GIT_COMMIT} --ci_stage << parameters.ci_stage >>
+            python3 app.py --commit ${GIT_COMMIT} --ci_stage << parameters.ci_stage >> --role sirius-ci
       - run:
           name: show progress
           command: cat docs/mapping_progress_summary.json

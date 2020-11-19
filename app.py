@@ -11,14 +11,14 @@ from app.upload_to_s3 import zip_dir
 @click.option("--new_format", default=True)
 @click.option("--commit", default=None)
 @click.option("--ci_stage", default="pull_request")
-def main(new_format, commit, ci_stage):
+@click.option("--role", default="operator")
+def main(new_format, commit, ci_stage, role):
     dirs_to_zip = ["mapping_spreadsheet", "mapping_definitions"]
 
     zip_file_pre = "mappings"
     ext = ".zip"
     zip_file = f"{zip_file_pre}{ext}"
     account = "288342028542"
-    role = "operator"
     s3_folder = "staged"
     bucket_name = "casrec-migration-mappings-development"
     s3_file_path = f"{s3_folder}/{zip_file_pre}_{commit}{ext}"
