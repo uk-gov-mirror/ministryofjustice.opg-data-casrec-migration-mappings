@@ -2,13 +2,22 @@ version: 2.1
 workflows:
   pull_request:
     jobs:
+      - run_version_mappings:
+          name: version mappings
+          ci_stage: pull_request
+          filters: { branches: { ignore: [ main ] } }
+  merge_main:
+    jobs:
       - terraform_command:
           name: create s3 bucket
           tf_workspace: development
-          filters: { branches: { ignore: [ main ] } }
+          tf_command: apply
+          filters: { branches: { only: [ main ] } }
       - run_version_mappings:
-          name: version mappings
-          filters: { branches: { ignore: [ main ] } }
+          name: copy to main s3
+          ci_stage: merge_main
+          filters: { branches: { only: [ main ] } }
+
 jobs:
   run_version_mappings:
     docker:
@@ -17,11 +26,24 @@ jobs:
           username: $DOCKER_USER
           password: $DOCKER_ACCESS_TOKEN
     resource_class: small
+    parameters:
+      ci_stage:
+        description: ci stage we are running
+        type: string
+        default: "pull_request"
     working_directory: ~/project
     steps:
       - run:
-          name: do nothing yet
-          command: echo "Doing nothing yet..."
+          name: install requirements
+          command: pip3 install -r requirements.txt
+      - run:
+          name: recreate json files and submit new version
+          command: |
+            export GIT_COMMIT=${CIRCLE_SHA1:0:7}
+            av python3 app.py --commit ${GIT_COMMIT} --ci_stage << parameters.ci_stage >>
+      - run:
+          name: show progress
+          command: cat docs/mapping_progress_summary.json
 
   terraform_command:
     executor: terraform/terraform
@@ -36,7 +58,7 @@ jobs:
         type: string
     environment:
       WORKSPACE: << parameters.tf_workspace >>
-    working_directory: ~/project/<< parameters.tf_tier >>
+    working_directory: ~/project/terraform
     steps:
       - checkout:
           path: ~/project

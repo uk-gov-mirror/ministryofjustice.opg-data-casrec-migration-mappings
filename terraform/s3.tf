@@ -29,6 +29,22 @@ resource "aws_s3_bucket" "casrec_migration_mappings" {
   tags = local.default_tags
 }
 
+resource "aws_s3_bucket_object" "object_staged" {
+  bucket                 = aws_s3_bucket.casrec_migration_mappings.bucket
+  acl                    = "private"
+  key                    = "staged/"
+  content_type           = "application/x-directory"
+  server_side_encryption = "AES256"
+}
+
+resource "aws_s3_bucket_object" "object_merged" {
+  bucket                 = aws_s3_bucket.casrec_migration_mappings.bucket
+  acl                    = "private"
+  key                    = "merged/"
+  content_type           = "application/x-directory"
+  server_side_encryption = "AES256"
+}
+
 resource "aws_s3_bucket_public_access_block" "casrec_migration_mappings" {
   bucket = aws_s3_bucket.casrec_migration_mappings.bucket
 

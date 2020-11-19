@@ -3,6 +3,7 @@ variable "default_role" {
 }
 
 locals {
+  account     = contains(keys(var.accounts), terraform.workspace) ? var.accounts[terraform.workspace] : var.accounts["development"]
   environment = terraform.workspace
 
   mandatory_moj_tags = {
