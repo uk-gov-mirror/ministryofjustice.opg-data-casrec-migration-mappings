@@ -18,6 +18,24 @@
             "total_mapped": 6,
             "percentage_complete": 100
         },
+        "cases": {
+            "total_rows": 115,
+            "total_unmapped": 67,
+            "total_mapped": 48,
+            "percentage_complete": 42
+        },
+        "person_caseitem": {
+            "total_rows": 2,
+            "total_unmapped": 0,
+            "total_mapped": 2,
+            "percentage_complete": 100
+        },
+        "supervision_level_log": {
+            "total_rows": 7,
+            "total_unmapped": 3,
+            "total_mapped": 4,
+            "percentage_complete": 57
+        },
         "bonds": {
             "total_rows": 12,
             "total_unmapped": 11,
@@ -59,12 +77,6 @@
             "total_unmapped": 0,
             "total_mapped": 2,
             "percentage_complete": 100
-        },
-        "cases": {
-            "total_rows": 115,
-            "total_unmapped": 114,
-            "total_mapped": 1,
-            "percentage_complete": 1
         },
         "annual_report_lodging_details": {
             "total_rows": 9,
@@ -222,12 +234,6 @@
             "total_mapped": 1,
             "percentage_complete": 14
         },
-        "supervision_level_log": {
-            "total_rows": 7,
-            "total_unmapped": 6,
-            "total_mapped": 1,
-            "percentage_complete": 14
-        },
         "pa_notified_persons": {
             "total_rows": 2,
             "total_unmapped": 0,
@@ -253,12 +259,6 @@
             "percentage_complete": 50
         },
         "pa_certificate_provider": {
-            "total_rows": 2,
-            "total_unmapped": 0,
-            "total_mapped": 2,
-            "percentage_complete": 100
-        },
-        "person_caseitem": {
             "total_rows": 2,
             "total_unmapped": 0,
             "total_mapped": 2,
@@ -518,9 +518,9 @@
         },
         "fields": {
             "total_fields": 854,
-            "total_unmapped": 711,
-            "total_mapped": 143,
-            "percentage_complete": 17
+            "total_unmapped": 661,
+            "total_mapped": 193,
+            "percentage_complete": 23
         }
     }
 }
