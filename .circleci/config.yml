@@ -44,7 +44,10 @@ jobs:
             python3 app.py --commit ${GIT_COMMIT} --ci_stage << parameters.ci_stage >> --role sirius-ci
       - run:
           name: show progress
-          command: cat docs/mapping_progress_summary.json
+          command: cat mapping_definitions/summary/mapping_progress_summary.json
+      - run:
+          name: show file diffs
+          command: cat mapping_definitions/summary/file_diffs.txt
 
   terraform_command:
     executor: terraform/terraform

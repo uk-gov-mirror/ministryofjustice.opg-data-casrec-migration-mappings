@@ -1,3 +1,4 @@
+import difflib
 import logging
 import os
 import zipfile
@@ -80,3 +81,69 @@ def copy_latest_s3(bucket, client, object_name_from, object_name_to, file_name):
     print(f"Uploaded {file_name.split('/')[-1]}")
 
     return True
+
+
+def pull_latest_merged(bucket, client, file_name):
+    """
+    Download latest version of file from s3 staged
+    """
+
+    latest_merged = f"merged/{file_name}"
+    try:
+        client.download_file(bucket, latest_merged, file_name)
+    except ClientError as e:
+        logging.error(e)
+        return False
+    print(f"Downloaded {file_name.split('/')[-1]}")
+
+    return True
+
+
+def extract_zip(file, extract_location):
+    """
+    Extract zip into previous mappings folder
+    """
+
+    with zipfile.ZipFile(file, "r") as zip_ref:
+        zip_ref.extractall(extract_location)
+
+    print("Extracted file to previous folder")
+
+
+def report_recursive(dcmp, output_file):
+    f = open(output_file, "w")
+    for name in dcmp.diff_files:
+        before = open(f"{dcmp.left}/{name}").readlines()
+        after = open(f"{dcmp.right}/{name}").readlines()
+        diff_lines = []
+        for line in difflib.unified_diff(before, after, lineterm="", n=0):
+            for prefix in ("---", "+++", "@@", "-}", "+}"):
+                if line.startswith(prefix):
+                    break
+            else:
+                diff_lines.append(line)
+
+        if len(diff_lines) > 0:
+
+            f.write(
+                "Difference in file %s found in %s and %s\n"
+                % (name, dcmp.left, dcmp.right)
+            )
+            for diff_line in diff_lines:
+                f.write(diff_line)
+
+    for name in dcmp.left_only:
+        f.write("Old file %s deleted in %s\n" % (name, dcmp.left))
+    for name in dcmp.right_only:
+        f.write("New file %s found in %s\n" % (name, dcmp.right))
+    for sub_dcmp in dcmp.subdirs.values():
+        report_recursive(sub_dcmp, output_file)
+
+    f.close()
+
+
+def get_latest_version(bucket, key, client):
+    versions = client.list_object_versions(Prefix=key, Bucket=bucket)
+    for version in [*versions["Versions"]]:
+        if version["IsLatest"]:
+            return version["VersionId"]
