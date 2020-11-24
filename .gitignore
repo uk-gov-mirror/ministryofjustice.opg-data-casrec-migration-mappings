@@ -42,3 +42,5 @@ sirius-snapshot
 data/anon_data/
 *terraform.output.json
 *etl*.sql
+*mappings.zip*
+*diff_file.txt*

@@ -23,7 +23,7 @@ class Mapping:
             "json_template": "./app/template",
             "mapping_definitions_output": "./mapping_definitions",
             "lookup_tables_output": "./mapping_definitions/lookups",
-            "summary_output": "./docs",
+            "summary_output": "./mapping_definitions/summary",
         }
 
         self.paths = file_paths if len(file_paths) > 0 else self.default_paths
