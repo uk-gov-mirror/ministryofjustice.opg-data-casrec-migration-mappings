@@ -72,7 +72,7 @@ jobs:
           command: terraform init
       - run:
           name: Set environment
-          command: export TF_WORKSPACE=<< parameters.tf_workspace >> $BASH_ENV
+          command: export TF_WORKSPACE=<< parameters.tf_workspace >> >> $BASH_ENV
       - run:
           name: Run << parameters.tf_command >>
           command: terraform << parameters.tf_command >>
