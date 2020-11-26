@@ -54,35 +54,6 @@ def upload_file(bucket, file_name, client, object_name=None):
     return True
 
 
-def copy_latest_s3(bucket, client, object_name_from, object_name_to, file_name):
-    """
-    Download latest version of file from s3 staged
-    Upload to s3 merged
-    """
-
-    try:
-        client.download_file(bucket, object_name_from, file_name)
-    except ClientError as e:
-        logging.error(e)
-        return False
-    print(f"Downloaded {file_name.split('/')[-1]}")
-
-    try:
-        transfer = boto3.s3.transfer.S3Transfer(client=client)
-        transfer.upload_file(
-            file_name,
-            bucket,
-            object_name_to,
-            extra_args={"ServerSideEncryption": "AES256"},
-        )
-    except ClientError as e:
-        logging.error(e)
-        return False
-    print(f"Uploaded {file_name.split('/')[-1]}")
-
-    return True
-
-
 def pull_latest_merged(bucket, client, file_name):
     """
     Download latest version of file from s3 staged
