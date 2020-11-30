@@ -44,3 +44,4 @@ data/anon_data/
 *etl*.sql
 *mappings.zip*
 *diff_file.txt*
+/mapping_definitions/
