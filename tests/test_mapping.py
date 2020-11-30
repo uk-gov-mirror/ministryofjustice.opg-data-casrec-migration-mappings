@@ -50,30 +50,30 @@ def test_mapping_new_format():
     # check all transform_casrec details
     for colour, details in expected_dict.items():
         assert (
-            details["transform_casrec"]["casrec_table"]
-            == result_dict[colour]["transform_casrec"]["casrec_table"]
+            result_dict[colour]["transform_casrec"]["casrec_table"]
+            == details["transform_casrec"]["casrec_table"]
         )
         assert (
-            details["transform_casrec"]["casrec_column_name"]
-            == result_dict[colour]["transform_casrec"]["casrec_column_name"]
+            result_dict[colour]["transform_casrec"]["casrec_column_name"]
+            == details["transform_casrec"]["casrec_column_name"]
         )
         assert (
-            details["transform_casrec"]["alias"]
-            == result_dict[colour]["transform_casrec"]["alias"]
+            result_dict[colour]["transform_casrec"]["alias"]
+            == details["transform_casrec"]["alias"]
         )
         assert (
-            details["transform_casrec"]["requires_transformation"]
-            == result_dict[colour]["transform_casrec"]["requires_transformation"]
+            result_dict[colour]["transform_casrec"]["requires_transformation"]
+            == details["transform_casrec"]["requires_transformation"]
         )
         assert (
-            details["transform_casrec"]["lookup_table"]
-            == result_dict[colour]["transform_casrec"]["lookup_table"]
+            result_dict[colour]["transform_casrec"]["lookup_table"]
+            == details["transform_casrec"]["lookup_table"]
         )
         assert (
-            details["transform_casrec"]["default_value"]
-            == result_dict[colour]["transform_casrec"]["default_value"]
+            result_dict[colour]["transform_casrec"]["default_value"]
+            == details["transform_casrec"]["default_value"]
         )
         assert (
-            details["transform_casrec"]["calculated"]
-            == result_dict[colour]["transform_casrec"]["calculated"]
+            result_dict[colour]["transform_casrec"]["calculated"]
+            == details["transform_casrec"]["calculated"]
         )

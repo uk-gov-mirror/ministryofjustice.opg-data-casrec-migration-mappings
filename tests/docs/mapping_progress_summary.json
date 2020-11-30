@@ -1,9 +1,9 @@
 {
     "worksheets": {
         "rainbows": {
-            "total_rows": 8,
+            "total_rows": 10,
             "total_unmapped": 0,
-            "total_mapped": 8,
+            "total_mapped": 10,
             "percentage_complete": 100
         }
     },
@@ -13,9 +13,9 @@
             "total_complete": 1
         },
         "fields": {
-            "total_fields": 8,
+            "total_fields": 10,
             "total_unmapped": 0,
-            "total_mapped": 8,
+            "total_mapped": 10,
             "percentage_complete": 100
         }
     }

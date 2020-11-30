@@ -1,5 +1,6 @@
 import json
 import os
+import re
 from typing import Dict
 from typing import List
 
@@ -208,6 +209,19 @@ class Mapping:
 
         return mapping_dict
 
+    def _format_conditional_lookup(self, mapping_dict: Dict) -> Dict:
+        column_name = "lookup_table"
+        pattern = re.compile(r"(\w*\b)\((.*?)\)")
+
+        for col, details in mapping_dict.items():
+            original_val = details[column_name]
+            new_val = [part for part in pattern.split(original_val) if part]
+
+            if len(new_val) > 0:
+                details[column_name] = new_val
+
+        return mapping_dict
+
     def _convert_sheet_name_to_module_name(self, sheet_name: str) -> str:
         """
         Excel sheet names are for humans.
@@ -309,6 +323,10 @@ class Mapping:
                     )
                     if len(module_dict) > 0:
                         module_dict = self._format_multiple_columns(
+                            mapping_dict=module_dict
+                        )
+
+                        module_dict = self._format_conditional_lookup(
                             mapping_dict=module_dict
                         )
 
