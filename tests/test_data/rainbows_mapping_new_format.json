@@ -5,19 +5,18 @@
         },
         "sirius_details": {
             "is_pk": "",
-            "fk_parents": ""
+            "fk_parents": "",
+            "data_type": "int"
         },
         "transform_casrec": {
             "casrec_table": "colours",
             "casrec_column_name": "colour_identifier",
             "alias": "colour_identifier",
             "requires_transformation": "",
-            "lookup_table": [],
+            "lookup_table": "",
             "default_value": "",
-            "calculated": ""
-        },
-        "acquire_target_ids": {
-            "calculated": ""
+            "calculated": "",
+            "additional_columns": ""
         }
     },
     "red": {
@@ -26,19 +25,18 @@
         },
         "sirius_details": {
             "is_pk": "",
-            "fk_parents": ""
+            "fk_parents": "",
+            "data_type": "str"
         },
         "transform_casrec": {
             "casrec_table": "colours",
             "casrec_column_name": "ruby",
             "alias": "ruby",
             "requires_transformation": "",
-            "lookup_table": [],
+            "lookup_table": "",
             "default_value": "",
-            "calculated": ""
-        },
-        "acquire_target_ids": {
-            "calculated": ""
+            "calculated": "",
+            "additional_columns": ""
         }
     },
     "orange": {
@@ -47,19 +45,18 @@
         },
         "sirius_details": {
             "is_pk": "",
-            "fk_parents": ""
+            "fk_parents": "",
+            "data_type": "str"
         },
         "transform_casrec": {
             "casrec_table": "colours",
             "casrec_column_name": "tangerine",
             "alias": "tangerine",
             "requires_transformation": "",
-            "lookup_table": [],
+            "lookup_table": "",
             "default_value": "",
-            "calculated": ""
-        },
-        "acquire_target_ids": {
-            "calculated": ""
+            "calculated": "",
+            "additional_columns": ""
         }
     },
     "yellow": {
@@ -68,19 +65,18 @@
         },
         "sirius_details": {
             "is_pk": "",
-            "fk_parents": ""
+            "fk_parents": "",
+            "data_type": "str"
         },
         "transform_casrec": {
             "casrec_table": "colours",
             "casrec_column_name": "amber",
             "alias": "amber",
             "requires_transformation": "",
-            "lookup_table": [],
+            "lookup_table": "",
             "default_value": "",
-            "calculated": ""
-        },
-        "acquire_target_ids": {
-            "calculated": ""
+            "calculated": "",
+            "additional_columns": ""
         }
     },
     "green": {
@@ -89,19 +85,18 @@
         },
         "sirius_details": {
             "is_pk": "",
-            "fk_parents": ""
+            "fk_parents": "",
+            "data_type": "str"
         },
         "transform_casrec": {
             "casrec_table": "colours",
             "casrec_column_name": "verdant",
             "alias": "verdant",
             "requires_transformation": "",
-            "lookup_table": [],
+            "lookup_table": "",
             "default_value": "",
-            "calculated": ""
-        },
-        "acquire_target_ids": {
-            "calculated": ""
+            "calculated": "",
+            "additional_columns": ""
         }
     },
     "blue": {
@@ -110,19 +105,18 @@
         },
         "sirius_details": {
             "is_pk": "",
-            "fk_parents": ""
+            "fk_parents": "",
+            "data_type": "str"
         },
         "transform_casrec": {
             "casrec_table": "colours",
             "casrec_column_name": "cerulean",
             "alias": "cerulean",
             "requires_transformation": "",
-            "lookup_table": [],
+            "lookup_table": "",
             "default_value": "",
-            "calculated": ""
-        },
-        "acquire_target_ids": {
-            "calculated": ""
+            "calculated": "",
+            "additional_columns": ""
         }
     },
     "indigo": {
@@ -131,19 +125,18 @@
         },
         "sirius_details": {
             "is_pk": "",
-            "fk_parents": ""
+            "fk_parents": "",
+            "data_type": "str"
         },
         "transform_casrec": {
             "casrec_table": "colours",
             "casrec_column_name": "dark_blue",
             "alias": "dark_blue",
             "requires_transformation": "",
-            "lookup_table": [],
+            "lookup_table": "",
             "default_value": "",
-            "calculated": ""
-        },
-        "acquire_target_ids": {
-            "calculated": ""
+            "calculated": "",
+            "additional_columns": ""
         }
     },
     "violet": {
@@ -152,19 +145,18 @@
         },
         "sirius_details": {
             "is_pk": "",
-            "fk_parents": ""
+            "fk_parents": "",
+            "data_type": "str"
         },
         "transform_casrec": {
             "casrec_table": "colours",
             "casrec_column_name": "purple",
             "alias": "purple",
             "requires_transformation": "",
-            "lookup_table": [],
+            "lookup_table": "",
             "default_value": "",
-            "calculated": ""
-        },
-        "acquire_target_ids": {
-            "calculated": ""
+            "calculated": "",
+            "additional_columns": ""
         }
     },
     "status": {
@@ -173,19 +165,21 @@
         },
         "sirius_details": {
             "is_pk": "",
-            "fk_parents": ""
+            "fk_parents": "",
+            "data_type": "str"
         },
         "transform_casrec": {
             "casrec_table": "colours",
             "casrec_column_name": "purple",
             "alias": "purple 1",
             "requires_transformation": "conditional_lookup",
-            "lookup_table": [
-                "status",
-                "blue"
-            ],
+            "lookup_table": "status_lookup",
             "default_value": "",
-            "calculated": ""
+            "calculated": "",
+            "additional_columns": [
+                "blue",
+                "orange"
+            ]
         }
     },
     "normal_lookup": {
@@ -194,18 +188,18 @@
         },
         "sirius_details": {
             "is_pk": "",
-            "fk_parents": ""
+            "fk_parents": "",
+            "data_type": "int"
         },
         "transform_casrec": {
             "casrec_table": "colours",
             "casrec_column_name": "orange",
             "alias": "orange",
             "requires_transformation": "",
-            "lookup_table": [
-                "I_a_lookup"
-            ],
+            "lookup_table": "I_am_lookup",
             "default_value": "",
-            "calculated": ""
+            "calculated": "",
+            "additional_columns": ""
         }
     },
     "updated_date": {
@@ -222,9 +216,10 @@
             "casrec_column_name": "updated_date",
             "alias": "updated_date",
             "requires_transformation": "",
-            "lookup_table": [],
+            "lookup_table": "",
             "default_value": "",
-            "calculated": ""
+            "calculated": "",
+            "additional_columns": ""
         }
     }
 }

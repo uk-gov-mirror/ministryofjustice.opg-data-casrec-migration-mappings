@@ -41,6 +41,7 @@ class Mapping:
             "lookup_table",
             "default_value",
             "calculated",
+            "additional_columns",
             "is_pk",
             "data_type",
             # 'fk_children',
@@ -200,31 +201,12 @@ class Mapping:
         Easier to do it once it's a dict than in the dataframe, as the numpy concept of
         'list' doesn't map easily using 'to_dict'!
         """
+        multi_fields = [self.source_column_name, "alias", "additional_columns"]
 
         for col, details in mapping_dict.items():
-            if "\n" in details[self.source_column_name]:
-                details[self.source_column_name] = [
-                    x.strip() for x in details[self.source_column_name].split("\n")
-                ]
-                details["alias"] = [x.strip() for x in details["alias"].split("\n")]
-
-        return mapping_dict
-
-    def _format_conditional_lookup(self, mapping_dict: Dict) -> Dict:
-        column_name = "lookup_table"
-        pattern = re.compile(r"(\w*\b)\((.*?)\)")
-
-        for col, details in mapping_dict.items():
-            original_val = details[column_name]
-            if len(original_val) > 0:
-                new_val = [part for part in pattern.split(original_val) if part]
-
-                if len(new_val) > 0:
-                    details[column_name] = new_val
-                else:
-                    details[column_name] = [original_val]
-            else:
-                details[column_name] = []
+            for field in multi_fields:
+                if "\n" in details[field]:
+                    details[field] = [x.strip() for x in details[field].split("\n")]
 
         return mapping_dict
 
@@ -332,11 +314,6 @@ class Mapping:
                             mapping_dict=module_dict
                         )
 
-                        module_dict = self._format_conditional_lookup(
-                            mapping_dict=module_dict
-                        )
-
-                        # print(f"module_dict: {module_dict}")
                         if self.new_format:
                             module_dict = self._convert_dict_to_new_format(
                                 mapping_dict=module_dict
