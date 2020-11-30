@@ -207,5 +207,24 @@
             "default_value": "",
             "calculated": ""
         }
+    },
+    "updated_date": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "date"
+        },
+        "transform_casrec": {
+            "casrec_table": "colours",
+            "casrec_column_name": "updated_date",
+            "alias": "updated_date",
+            "requires_transformation": "",
+            "lookup_table": [],
+            "default_value": "",
+            "calculated": ""
+        }
     }
 }
