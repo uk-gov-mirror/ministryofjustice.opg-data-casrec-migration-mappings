@@ -42,6 +42,7 @@ class Mapping:
             "default_value",
             "calculated",
             "is_pk",
+            "data_type",
             # 'fk_children',
             "fk_parents",
             "is_complete",
@@ -215,10 +216,15 @@ class Mapping:
 
         for col, details in mapping_dict.items():
             original_val = details[column_name]
-            new_val = [part for part in pattern.split(original_val) if part]
+            if len(original_val) > 0:
+                new_val = [part for part in pattern.split(original_val) if part]
 
-            if len(new_val) > 0:
-                details[column_name] = new_val
+                if len(new_val) > 0:
+                    details[column_name] = new_val
+                else:
+                    details[column_name] = [original_val]
+            else:
+                details[column_name] = []
 
         return mapping_dict
 
