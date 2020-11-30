@@ -46,3 +46,34 @@ def test_mapping_new_format():
         result_dict = json.loads(result_data)
 
     assert sorted(expected_dict) == sorted(result_dict)
+
+    # check all transform_casrec details
+    for colour, details in expected_dict.items():
+        assert (
+            result_dict[colour]["transform_casrec"]["casrec_table"]
+            == details["transform_casrec"]["casrec_table"]
+        )
+        assert (
+            result_dict[colour]["transform_casrec"]["casrec_column_name"]
+            == details["transform_casrec"]["casrec_column_name"]
+        )
+        assert (
+            result_dict[colour]["transform_casrec"]["alias"]
+            == details["transform_casrec"]["alias"]
+        )
+        assert (
+            result_dict[colour]["transform_casrec"]["requires_transformation"]
+            == details["transform_casrec"]["requires_transformation"]
+        )
+        assert (
+            result_dict[colour]["transform_casrec"]["lookup_table"]
+            == details["transform_casrec"]["lookup_table"]
+        )
+        assert (
+            result_dict[colour]["transform_casrec"]["default_value"]
+            == details["transform_casrec"]["default_value"]
+        )
+        assert (
+            result_dict[colour]["transform_casrec"]["calculated"]
+            == details["transform_casrec"]["calculated"]
+        )

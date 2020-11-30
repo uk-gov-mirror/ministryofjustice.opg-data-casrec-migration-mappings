@@ -12,7 +12,7 @@
             "casrec_column_name": "colour_identifier",
             "alias": "colour_identifier",
             "requires_transformation": "",
-            "lookup_table": "",
+            "lookup_table": [],
             "default_value": "",
             "calculated": ""
         },
@@ -33,7 +33,7 @@
             "casrec_column_name": "ruby",
             "alias": "ruby",
             "requires_transformation": "",
-            "lookup_table": "",
+            "lookup_table": [],
             "default_value": "",
             "calculated": ""
         },
@@ -54,7 +54,7 @@
             "casrec_column_name": "tangerine",
             "alias": "tangerine",
             "requires_transformation": "",
-            "lookup_table": "",
+            "lookup_table": [],
             "default_value": "",
             "calculated": ""
         },
@@ -75,7 +75,7 @@
             "casrec_column_name": "amber",
             "alias": "amber",
             "requires_transformation": "",
-            "lookup_table": "",
+            "lookup_table": [],
             "default_value": "",
             "calculated": ""
         },
@@ -96,7 +96,7 @@
             "casrec_column_name": "verdant",
             "alias": "verdant",
             "requires_transformation": "",
-            "lookup_table": "",
+            "lookup_table": [],
             "default_value": "",
             "calculated": ""
         },
@@ -117,7 +117,7 @@
             "casrec_column_name": "cerulean",
             "alias": "cerulean",
             "requires_transformation": "",
-            "lookup_table": "",
+            "lookup_table": [],
             "default_value": "",
             "calculated": ""
         },
@@ -138,7 +138,7 @@
             "casrec_column_name": "dark_blue",
             "alias": "dark_blue",
             "requires_transformation": "",
-            "lookup_table": "",
+            "lookup_table": [],
             "default_value": "",
             "calculated": ""
         },
@@ -159,11 +159,52 @@
             "casrec_column_name": "purple",
             "alias": "purple",
             "requires_transformation": "",
-            "lookup_table": "",
+            "lookup_table": [],
             "default_value": "",
             "calculated": ""
         },
         "acquire_target_ids": {
+            "calculated": ""
+        }
+    },
+    "status": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": ""
+        },
+        "transform_casrec": {
+            "casrec_table": "colours",
+            "casrec_column_name": "purple",
+            "alias": "purple 1",
+            "requires_transformation": "conditional_lookup",
+            "lookup_table": [
+                "status",
+                "blue"
+            ],
+            "default_value": "",
+            "calculated": ""
+        }
+    },
+    "normal_lookup": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": ""
+        },
+        "transform_casrec": {
+            "casrec_table": "colours",
+            "casrec_column_name": "orange",
+            "alias": "orange",
+            "requires_transformation": "",
+            "lookup_table": [
+                "I_a_lookup"
+            ],
+            "default_value": "",
             "calculated": ""
         }
     }
