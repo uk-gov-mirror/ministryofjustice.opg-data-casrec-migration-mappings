@@ -101,32 +101,24 @@ class Mapping:
         for col in cols_to_add:
             mapping_df[col] = ""
 
+        mapping_df["is_complete"] = mapping_df["is_complete"].fillna("NO")
+        # set 'include' to True where 'is_complete' is not N/A or empty (ie, means it
+        # should be mapped even if the mapping is not complete)
+        mapping_df["is_complete"].to_string(na_rep="").lower()
+
+        mapping_df["include"] = mapping_df.apply(
+            lambda x: True if x["is_complete"] not in ("not mapped") else False, axis=1
+        )
+
+        # # remove nan
+        mapping_df = mapping_df.fillna("")
+        # print(mapping_df.to_markdown())
+
         # remove False from 'is_pk' col
         mapping_df["is_pk"] = mapping_df.apply(
             lambda x: True if x["is_pk"] is True else "", axis=1
         )
-        # convert 'is_complete' rows to boolean: True
-        mapping_df["is_complete"] = mapping_df.apply(
-            lambda x: True if x["is_complete"] in ["yes", "YES"] else False, axis=1,
-        )
-        # change 'is_complete' to true if field is a pk
-        mapping_df["is_complete"] = mapping_df.apply(
-            lambda x: True if x["is_pk"] is True else x["is_complete"], axis=1,
-        )
-        # change 'is_complete' to true if field is a fk
-        mapping_df["is_complete"] = mapping_df.apply(
-            lambda x: True if x["fk_parents"] is True else x["is_complete"], axis=1,
-        )
 
-        # drop any rows that have no value in all interesting cols
-        mapping_df = mapping_df.dropna(axis=0, how="all", subset=self.columns)
-        # fill 'nan' with empty string
-        mapping_df = mapping_df.fillna("")
-        # set 'include' to True where 'is_complete' is not N/A (ie, means it should be
-        # mapped even if the mapping is not complete)
-        mapping_df["include"] = mapping_df.apply(
-            lambda x: True if x["is_complete"] != "" else False, axis=1
-        )
         # force pk fields to be included
         mapping_df["include"] = mapping_df.apply(
             lambda x: True if x["is_pk"] is True else x["include"], axis=1
@@ -135,11 +127,30 @@ class Mapping:
         mapping_df["include"] = mapping_df.apply(
             lambda x: True if x["fk_parents"] != "" else x["include"], axis=1
         )
+        # convert 'is_complete' rows to boolean: True
+        mapping_df["is_complete"] = mapping_df.apply(
+            lambda x: True if x["is_complete"] in ["yes", "YES"] else False, axis=1,
+        )
+
+        # change 'is_complete' to true if field is a pk
+        mapping_df["is_complete"] = mapping_df.apply(
+            lambda x: True if x["is_pk"] is True else x["is_complete"], axis=1,
+        )
+        # change 'is_complete' to true if field is a fk
+        mapping_df["is_complete"] = mapping_df.apply(
+            lambda x: True if x["fk_parents"] != "" else x["is_complete"], axis=1,
+        )
+
+        # drop any rows that have no value in all interesting cols
+        mapping_df = mapping_df.dropna(axis=0, how="all", subset=self.columns)
+        # fill 'nan' with empty string
+        mapping_df = mapping_df.fillna("")
+
         # only select the rows where include is True
         mapping_df = mapping_df.loc[mapping_df["include"] == True]
         # drop the include col (because it's always True)
         mapping_df.drop("include", axis=1, inplace=True)
-        # print(mapping_df.to_markdown())
+
         # set index to the column name so the to_dict pivots on the sirius column name
         mapping_df = mapping_df.set_index(self.index_column)
         # convert to dictionary
@@ -152,6 +163,7 @@ class Mapping:
     ):
 
         module_total_rows = len(mapping_dict)
+
         module_total_unmapped_rows = len(
             [k for k, v in mapping_dict.items() if v["is_complete"] is not True]
         )
