@@ -232,9 +232,12 @@ class Mapping:
         """
         We need to process each sheet individually
         """
-
-        path = self.paths["mapping_spreadsheet"]
-        excel_df = pd.ExcelFile(f"{path}/{self.excel_doc}")
+        dirname = os.path.dirname(__file__)
+        path = "mapping_spreadsheet"
+        file_path = os.path.join(dirname, path, self.excel_doc)
+        # path = self.paths["mapping_spreadsheet"]
+        # excel_df = pd.ExcelFile(f"{path}/{self.excel_doc}")
+        excel_df = pd.ExcelFile(file_path)
 
         all_sheets = [
             {
@@ -280,8 +283,13 @@ class Mapping:
             json.dump(lookup_dict, json_out, indent=4)
 
     def _convert_dict_to_new_format(self, mapping_dict: Dict) -> Dict:
-        path = self.paths["json_template"]
-        file_path = f"{path}/mapping_template.json"
+        dirname = os.path.dirname(__file__)
+        path = "template"
+        file_path = os.path.join(dirname, path, "mapping_template.json")
+
+        #
+        # path = self.paths["json_template"]
+        # file_path = f"{path}/mapping_template.json"
 
         with open(file_path, "r") as template_json:
             template_data = template_json.read()
@@ -300,9 +308,9 @@ class Mapping:
         return from_template
 
     def generate_json_files(self):
-
-        path = self.paths["json_template"]
-        file_path = f"{path}/summary_template.json"
+        dirname = os.path.dirname(__file__)
+        path = "template"
+        file_path = os.path.join(dirname, path, "summary_template.json")
 
         with open(file_path, "r") as template_json:
             template_data = template_json.read()

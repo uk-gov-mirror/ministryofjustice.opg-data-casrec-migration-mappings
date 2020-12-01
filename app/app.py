@@ -1,15 +1,14 @@
 import filecmp
 
 import click as click
-
-from app.helper import assume_aws_session
-from app.mapping_all_sheets import Mapping
-from app.upload_to_s3 import extract_zip
-from app.upload_to_s3 import get_latest_version
-from app.upload_to_s3 import pull_latest_merged
-from app.upload_to_s3 import report_recursive
-from app.upload_to_s3 import upload_file
-from app.upload_to_s3 import zip_dir
+from helper import assume_aws_session
+from mapping_all_sheets import Mapping
+from upload_to_s3 import extract_zip
+from upload_to_s3 import get_latest_version
+from upload_to_s3 import pull_latest_merged
+from upload_to_s3 import report_recursive
+from upload_to_s3 import upload_file
+from upload_to_s3 import zip_dir
 
 
 @click.command()

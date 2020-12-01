@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+    generate:
+        build: .
+        volumes:
+            - ./mapping_spreadsheet:/generate/app/mapping_spreadsheet
+            - ./mapping_definitions:/generate/app/mapping_definitions
