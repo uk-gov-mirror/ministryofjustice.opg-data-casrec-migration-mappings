@@ -3,5 +3,5 @@ services:
     generate:
         build: .
         volumes:
-            - ./mapping_spreadsheet:/generate/app/mapping_spreadsheet
-            - ./mapping_definitions:/generate/app/mapping_definitions
+            - ./mapping_spreadsheet:/generate/mapping_spreadsheet
+            - ./mapping_definitions:/generate/mapping_definitions

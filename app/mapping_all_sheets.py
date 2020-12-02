@@ -234,7 +234,7 @@ class Mapping:
         """
         dirname = os.path.dirname(__file__)
         path = "mapping_spreadsheet"
-        file_path = os.path.join(dirname, path, self.excel_doc)
+        file_path = os.path.join(dirname, "..", path, self.excel_doc)
         # path = self.paths["mapping_spreadsheet"]
         # excel_df = pd.ExcelFile(f"{path}/{self.excel_doc}")
         excel_df = pd.ExcelFile(file_path)
