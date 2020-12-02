@@ -44,4 +44,10 @@ data/anon_data/
 *etl*.sql
 *mappings.zip*
 *diff_file.txt*
-/mapping_definitions/
+/mapping_spreadsheet/~$Casrec_Mapping_Document.xlsx
+
+bin/
+
+lib/python3.8/site-packages/
+
+pyvenv.cfg
