@@ -614,7 +614,7 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": "Casrec",
+            "default_value": "CASRECMIGRATION",
             "calculated": "",
             "additional_columns": ""
         }
