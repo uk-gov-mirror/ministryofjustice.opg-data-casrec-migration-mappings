@@ -919,6 +919,26 @@
             "additional_columns": ""
         }
     },
+    "securitybond": {
+        "mapping_status": {
+            "is_complete": false
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "bool"
+        },
+        "transform_casrec": {
+            "casrec_table": "ORDER",
+            "casrec_column_name": "Bond Rqd",
+            "alias": "Bond Rqd",
+            "requires_transformation": "boolean",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
     "orderstatus": {
         "mapping_status": {
             "is_complete": true
