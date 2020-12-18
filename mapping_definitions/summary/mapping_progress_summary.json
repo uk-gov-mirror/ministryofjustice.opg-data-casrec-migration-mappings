@@ -1,10 +1,16 @@
 {
     "worksheets": {
         "client_persons": {
-            "total_rows": 32,
+            "total_rows": 35,
             "total_unmapped": 5,
-            "total_mapped": 27,
-            "percentage_complete": 84
+            "total_mapped": 30,
+            "percentage_complete": 86
+        },
+        "deputy_persons": {
+            "total_rows": 35,
+            "total_unmapped": 17,
+            "total_mapped": 18,
+            "percentage_complete": 51
         },
         "client_addresses": {
             "total_rows": 9,
@@ -18,11 +24,17 @@
             "total_mapped": 6,
             "percentage_complete": 100
         },
+        "deputy_phonenumbers": {
+            "total_rows": 6,
+            "total_unmapped": 0,
+            "total_mapped": 6,
+            "percentage_complete": 100
+        },
         "cases": {
-            "total_rows": 57,
-            "total_unmapped": 5,
+            "total_rows": 58,
+            "total_unmapped": 6,
             "total_mapped": 52,
-            "percentage_complete": 91
+            "percentage_complete": 90
         },
         "person_caseitem": {
             "total_rows": 2,
@@ -37,10 +49,10 @@
             "percentage_complete": 67
         },
         "bonds": {
-            "total_rows": 12,
-            "total_unmapped": 9,
-            "total_mapped": 3,
-            "percentage_complete": 25
+            "total_rows": 8,
+            "total_unmapped": 0,
+            "total_mapped": 8,
+            "percentage_complete": 100
         },
         "caseitem_document": {
             "total_rows": 2,
@@ -513,14 +525,14 @@
     },
     "total": {
         "worksheets": {
-            "total_sheets": 85,
+            "total_sheets": 87,
             "total_complete": 0
         },
         "fields": {
-            "total_fields": 746,
-            "total_unmapped": 474,
-            "total_mapped": 272,
-            "percentage_complete": 36
+            "total_fields": 787,
+            "total_unmapped": 483,
+            "total_mapped": 304,
+            "percentage_complete": 39
         }
     }
 }
