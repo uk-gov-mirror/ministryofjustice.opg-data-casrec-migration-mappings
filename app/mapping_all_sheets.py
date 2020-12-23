@@ -44,6 +44,7 @@ class Mapping:
             "additional_columns",
             "is_pk",
             "data_type",
+            "table_name",
             # 'fk_children',
             "fk_parents",
             "is_complete",
