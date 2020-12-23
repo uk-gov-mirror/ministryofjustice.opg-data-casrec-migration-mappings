@@ -6,7 +6,8 @@
         "sirius_details": {
             "is_pk": true,
             "fk_parents": "",
-            "data_type": "int"
+            "data_type": "int",
+            "table_name": "investigation"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -26,7 +27,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "cases:id",
-            "data_type": "int"
+            "data_type": "int",
+            "table_name": "investigation"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -46,7 +48,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "investigation"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -66,7 +69,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "investigation"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -86,7 +90,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "date"
+            "data_type": "date",
+            "table_name": "investigation"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -106,7 +111,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "date"
+            "data_type": "date",
+            "table_name": "investigation"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -126,7 +132,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "date"
+            "data_type": "date",
+            "table_name": "investigation"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -146,7 +153,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "investigation"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -166,7 +174,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "assignees:id",
-            "data_type": "int"
+            "data_type": "int",
+            "table_name": "investigation"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -186,7 +195,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "investigation"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -206,7 +216,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "date"
+            "data_type": "date",
+            "table_name": "investigation"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -226,7 +237,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "date"
+            "data_type": "date",
+            "table_name": "investigation"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -246,7 +258,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "persons:id",
-            "data_type": "int"
+            "data_type": "int",
+            "table_name": "investigation"
         },
         "transform_casrec": {
             "casrec_table": "",

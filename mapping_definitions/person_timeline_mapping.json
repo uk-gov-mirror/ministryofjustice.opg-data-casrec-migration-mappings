@@ -6,7 +6,8 @@
         "sirius_details": {
             "is_pk": true,
             "fk_parents": "",
-            "data_type": "int"
+            "data_type": "int",
+            "table_name": "person_timeline"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -26,7 +27,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "persons:id",
-            "data_type": "int"
+            "data_type": "int",
+            "table_name": "person_timeline"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -46,7 +48,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "timeline_event:id",
-            "data_type": "int"
+            "data_type": "int",
+            "table_name": "person_timeline"
         },
         "transform_casrec": {
             "casrec_table": "",
