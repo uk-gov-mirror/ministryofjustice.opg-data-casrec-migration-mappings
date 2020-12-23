@@ -6,7 +6,8 @@
         "sirius_details": {
             "is_pk": true,
             "fk_parents": "persons:id",
-            "data_type": "int"
+            "data_type": "int",
+            "table_name": "person_task"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -26,7 +27,8 @@
         "sirius_details": {
             "is_pk": true,
             "fk_parents": "tasks:id",
-            "data_type": "int"
+            "data_type": "int",
+            "table_name": "person_task"
         },
         "transform_casrec": {
             "casrec_table": "",

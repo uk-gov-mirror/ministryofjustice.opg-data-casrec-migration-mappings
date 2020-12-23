@@ -6,7 +6,8 @@
         "sirius_details": {
             "is_pk": true,
             "fk_parents": "",
-            "data_type": "int"
+            "data_type": "int",
+            "table_name": "addresses"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -26,7 +27,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "persons:id",
-            "data_type": "int"
+            "data_type": "int",
+            "table_name": "addresses"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -46,7 +48,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "dict"
+            "data_type": "dict",
+            "table_name": "addresses"
         },
         "transform_casrec": {
             "casrec_table": "PAT",
@@ -72,7 +75,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "addresses"
         },
         "transform_casrec": {
             "casrec_table": "PAT",
@@ -92,7 +96,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "addresses"
         },
         "transform_casrec": {
             "casrec_table": "PAT",
@@ -112,7 +117,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "addresses"
         },
         "transform_casrec": {
             "casrec_table": "PAT",
@@ -132,7 +138,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "addresses"
         },
         "transform_casrec": {
             "casrec_table": "PAT",
@@ -152,7 +159,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "addresses"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -172,7 +180,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "bool"
+            "data_type": "bool",
+            "table_name": "addresses"
         },
         "transform_casrec": {
             "casrec_table": "PAT",

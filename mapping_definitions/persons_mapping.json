@@ -6,7 +6,8 @@
         "sirius_details": {
             "is_pk": true,
             "fk_parents": "",
-            "data_type": "int"
+            "data_type": "int",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -26,7 +27,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "int"
+            "data_type": "int",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -46,7 +48,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -66,7 +69,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "date"
+            "data_type": "date",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -86,7 +90,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "date"
+            "data_type": "date",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -106,7 +111,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -126,7 +132,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -146,7 +153,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -166,7 +174,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -186,7 +195,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -206,7 +216,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "bool"
+            "data_type": "bool",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -226,7 +237,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "bool"
+            "data_type": "bool",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -246,7 +258,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "bool"
+            "data_type": "bool",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -266,7 +279,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -286,7 +300,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "datetime"
+            "data_type": "datetime",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -306,7 +321,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "int"
+            "data_type": "int",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -326,7 +342,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -346,7 +363,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "date"
+            "data_type": "date",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -366,7 +384,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "int"
+            "data_type": "int",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -386,7 +405,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -406,7 +426,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -426,7 +447,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "date"
+            "data_type": "date",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -446,7 +468,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -466,7 +489,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -486,7 +510,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "bool"
+            "data_type": "bool",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -506,7 +531,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -526,7 +552,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "bool"
+            "data_type": "bool",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -546,7 +573,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "bool"
+            "data_type": "bool",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -566,7 +594,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -586,7 +615,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -606,7 +636,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -626,7 +657,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -646,7 +678,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -666,7 +699,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "bool"
+            "data_type": "bool",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -686,7 +720,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "bool"
+            "data_type": "bool",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -706,7 +741,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "bool"
+            "data_type": "bool",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -726,7 +762,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "bool"
+            "data_type": "bool",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -746,7 +783,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "bool"
+            "data_type": "bool",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -766,7 +804,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "date"
+            "data_type": "date",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -786,7 +825,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "bool"
+            "data_type": "bool",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -806,7 +846,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -826,7 +867,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -846,7 +888,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "date"
+            "data_type": "date",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -866,7 +909,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -886,7 +930,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -906,7 +951,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -926,7 +972,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -946,7 +993,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -966,7 +1014,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -986,7 +1035,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1006,7 +1056,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1026,7 +1077,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "date"
+            "data_type": "date",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1046,7 +1098,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1066,7 +1119,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1086,7 +1140,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1106,7 +1161,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "bool"
+            "data_type": "bool",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1126,7 +1182,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1146,7 +1203,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1166,7 +1224,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1186,7 +1245,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1206,7 +1266,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "bool"
+            "data_type": "bool",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1226,7 +1287,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "bool"
+            "data_type": "bool",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1246,7 +1308,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "bool"
+            "data_type": "bool",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1266,7 +1329,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "bool"
+            "data_type": "bool",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1286,7 +1350,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "bool"
+            "data_type": "bool",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1306,7 +1371,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "bool"
+            "data_type": "bool",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1326,7 +1392,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "int"
+            "data_type": "int",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1346,7 +1413,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1366,7 +1434,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "int"
+            "data_type": "int",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1386,7 +1455,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "bool"
+            "data_type": "bool",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1406,7 +1476,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1426,7 +1497,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1446,7 +1518,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "bool"
+            "data_type": "bool",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1466,7 +1539,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1486,7 +1560,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "assignees:id",
-            "data_type": "int"
+            "data_type": "int",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1506,7 +1581,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1526,7 +1602,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1546,7 +1623,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "int"
+            "data_type": "int",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1566,7 +1644,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "str"
+            "data_type": "str",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1586,7 +1665,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "datetime"
+            "data_type": "datetime",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1606,7 +1686,8 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "int"
+            "data_type": "int",
+            "table_name": "persons"
         },
         "transform_casrec": {
             "casrec_table": "",

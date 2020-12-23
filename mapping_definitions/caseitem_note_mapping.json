@@ -6,7 +6,8 @@
         "sirius_details": {
             "is_pk": true,
             "fk_parents": "cases:id",
-            "data_type": "int"
+            "data_type": "int",
+            "table_name": "caseitem_note"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -26,7 +27,8 @@
         "sirius_details": {
             "is_pk": true,
             "fk_parents": "notes:id",
-            "data_type": "int"
+            "data_type": "int",
+            "table_name": "caseitem_note"
         },
         "transform_casrec": {
             "casrec_table": "",
