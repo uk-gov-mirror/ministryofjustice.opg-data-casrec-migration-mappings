@@ -55,7 +55,7 @@
             "casrec_table": "PAT",
             "casrec_column_name": "Term Date",
             "alias": "Term Date",
-            "requires_transformation": "",
+            "requires_transformation": "conditional_lookup",
             "lookup_table": "date_of_death_lookup",
             "default_value": "",
             "calculated": "",
@@ -237,7 +237,7 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "int",
+            "data_type": "bigint",
             "table_name": "persons"
         },
         "transform_casrec": {

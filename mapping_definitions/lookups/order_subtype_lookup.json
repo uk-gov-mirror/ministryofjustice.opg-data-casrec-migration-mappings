@@ -1,23 +1,23 @@
 {
     "1": {
-        "sirius_mapping": "New deputy"
+        "sirius_mapping": "NEW DEPUTY"
     },
     "2": {
-        "sirius_mapping": "New deputy"
+        "sirius_mapping": "NEW DEPUTY"
     },
     "26": {
-        "sirius_mapping": "Supplementary"
+        "sirius_mapping": "SUPPLEMENTARY"
     },
     "40": {
-        "sirius_mapping": "Replacement"
+        "sirius_mapping": "REPLACEMENT"
     },
     "41": {
-        "sirius_mapping": "Interim"
+        "sirius_mapping": "INTERIM ORDER"
     },
     "43": {
-        "sirius_mapping": "Direction"
+        "sirius_mapping": "DIRECTION"
     },
     "45": {
-        "sirius_mapping": "Tenancy"
+        "sirius_mapping": "TENANCY"
     }
 }
