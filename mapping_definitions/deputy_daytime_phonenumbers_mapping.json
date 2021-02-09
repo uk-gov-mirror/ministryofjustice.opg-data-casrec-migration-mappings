@@ -1,13 +1,13 @@
 {
     "id": {
         "mapping_status": {
-            "is_complete": false
+            "is_complete": true
         },
         "sirius_details": {
-            "is_pk": "",
+            "is_pk": true,
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "addresses_migrated"
+            "table_name": "phonenumbers"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -22,13 +22,13 @@
     },
     "person_id": {
         "mapping_status": {
-            "is_complete": false
+            "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
-            "fk_parents": "",
+            "fk_parents": "persons:id",
             "data_type": "int",
-            "table_name": "addresses_migrated"
+            "table_name": "phonenumbers"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -38,44 +38,23 @@
             "lookup_table": "",
             "default_value": "",
             "calculated": "",
-            "additional_columns": ""
+            "additional_columns": "Case"
         }
     },
-    "address_lines": {
+    "phone_number": {
         "mapping_status": {
-            "is_complete": false
-        },
-        "sirius_details": {
-            "is_pk": "",
-            "fk_parents": "",
-            "data_type": "dict",
-            "table_name": "addresses_migrated"
-        },
-        "transform_casrec": {
-            "casrec_table": "",
-            "casrec_column_name": "",
-            "alias": "",
-            "requires_transformation": "",
-            "lookup_table": "",
-            "default_value": "",
-            "calculated": "",
-            "additional_columns": ""
-        }
-    },
-    "town": {
-        "mapping_status": {
-            "is_complete": false
+            "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "addresses_migrated"
+            "table_name": "phonenumbers"
         },
         "transform_casrec": {
-            "casrec_table": "",
-            "casrec_column_name": "",
-            "alias": "",
+            "casrec_table": "DEPUTY",
+            "casrec_column_name": "Contact Telephone",
+            "alias": "Contact Telephone",
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "",
@@ -83,15 +62,15 @@
             "additional_columns": ""
         }
     },
-    "county": {
+    "type": {
         "mapping_status": {
-            "is_complete": false
+            "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "addresses_migrated"
+            "table_name": "phonenumbers"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -99,41 +78,41 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": "",
+            "default_value": "Work",
             "calculated": "",
             "additional_columns": ""
         }
     },
-    "postcode": {
+    "is_default": {
         "mapping_status": {
-            "is_complete": false
-        },
-        "sirius_details": {
-            "is_pk": "",
-            "fk_parents": "",
-            "data_type": "str",
-            "table_name": "addresses_migrated"
-        },
-        "transform_casrec": {
-            "casrec_table": "",
-            "casrec_column_name": "",
-            "alias": "",
-            "requires_transformation": "",
-            "lookup_table": "",
-            "default_value": "",
-            "calculated": "",
-            "additional_columns": ""
-        }
-    },
-    "isairmailrequired": {
-        "mapping_status": {
-            "is_complete": false
+            "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
             "data_type": "bool",
-            "table_name": "addresses_migrated"
+            "table_name": "phonenumbers"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": false,
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
+    "updateddate": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "datetime",
+            "table_name": "phonenumbers"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -142,7 +121,7 @@
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "",
-            "calculated": "",
+            "calculated": "current_date",
             "additional_columns": ""
         }
     }

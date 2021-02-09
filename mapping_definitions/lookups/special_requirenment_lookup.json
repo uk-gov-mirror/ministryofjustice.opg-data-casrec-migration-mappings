@@ -1,0 +1,11 @@
+{
+    "1": {
+        "sirius_mapping": "specialcorrespondencerequirements_audiotape"
+    },
+    "2": {
+        "sirius_mapping": "specialcorrespondencerequirements_largeprint"
+    },
+    "6": {
+        "sirius_mapping": "specialcorrespondencerequirements_hearingimpaired"
+    }
+}

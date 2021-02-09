@@ -300,7 +300,7 @@
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "int",
+            "data_type": "bigint",
             "table_name": "cases"
         },
         "transform_casrec": {
@@ -979,7 +979,7 @@
             "casrec_table": "ORDER",
             "casrec_column_name": "Bond Rqd",
             "alias": "Bond Rqd",
-            "requires_transformation": "boolean",
+            "requires_transformation": "convert_to_bool",
             "lookup_table": "",
             "default_value": "",
             "calculated": "",

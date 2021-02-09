@@ -8,9 +8,15 @@
         },
         "deputy_persons": {
             "total_rows": 35,
-            "total_unmapped": 17,
-            "total_mapped": 18,
-            "percentage_complete": 51
+            "total_unmapped": 20,
+            "total_mapped": 15,
+            "percentage_complete": 43
+        },
+        "order_deputy": {
+            "total_rows": 11,
+            "total_unmapped": 8,
+            "total_mapped": 3,
+            "percentage_complete": 27
         },
         "client_addresses": {
             "total_rows": 9,
@@ -24,7 +30,13 @@
             "total_mapped": 6,
             "percentage_complete": 100
         },
-        "deputy_phonenumbers": {
+        "deputy_daytime_phonenumbers": {
+            "total_rows": 6,
+            "total_unmapped": 0,
+            "total_mapped": 6,
+            "percentage_complete": 100
+        },
+        "deputy_evening_phonenumbers": {
             "total_rows": 6,
             "total_unmapped": 0,
             "total_mapped": 6,
@@ -43,10 +55,10 @@
             "percentage_complete": 100
         },
         "supervision_level_log": {
-            "total_rows": 6,
-            "total_unmapped": 2,
+            "total_rows": 7,
+            "total_unmapped": 3,
             "total_mapped": 4,
-            "percentage_complete": 67
+            "percentage_complete": 57
         },
         "bonds": {
             "total_rows": 8,
@@ -221,12 +233,6 @@
             "total_unmapped": 0,
             "total_mapped": 1,
             "percentage_complete": 100
-        },
-        "order_deputy": {
-            "total_rows": 11,
-            "total_unmapped": 8,
-            "total_mapped": 3,
-            "percentage_complete": 27
         },
         "payments": {
             "total_rows": 10,
@@ -525,13 +531,13 @@
     },
     "total": {
         "worksheets": {
-            "total_sheets": 87,
+            "total_sheets": 88,
             "total_complete": 0
         },
         "fields": {
-            "total_fields": 787,
-            "total_unmapped": 483,
-            "total_mapped": 304,
+            "total_fields": 794,
+            "total_unmapped": 487,
+            "total_mapped": 307,
             "percentage_complete": 39
         }
     }
