@@ -271,7 +271,8 @@ class Mapping:
 
     def _convert_lookup_to_dict(self, name, df):
         df = df[["casrec_code", "sirius_mapping"]]
-        df = df.dropna()
+        # df = df.dropna()
+        df = df.fillna("")
         df = df.set_index("casrec_code")
         lookup_dict = df.to_dict("index")
 

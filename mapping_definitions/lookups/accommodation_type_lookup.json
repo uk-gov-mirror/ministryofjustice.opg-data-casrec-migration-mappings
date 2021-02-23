@@ -1,4 +1,7 @@
 {
+    "": {
+        "sirius_mapping": "NO ACCOMMODATION TYPE"
+    },
     "CR": {
         "sirius_mapping": "COUNCIL RENTED"
     },
@@ -32,8 +35,14 @@
     "PT3": {
         "sirius_mapping": "LA PART 3 ACCOMMODATION"
     },
+    "RCH": {
+        "sirius_mapping": ""
+    },
     "REN": {
         "sirius_mapping": "PRIVATE RENTED"
+    },
+    "RH": {
+        "sirius_mapping": ""
     },
     "FM": {
         "sirius_mapping": "FAMILY MEMBER/FRIEND'S HOME"
@@ -43,6 +52,9 @@
     },
     "SH": {
         "sirius_mapping": "SUPPORTED HOUSING"
+    },
+    "LAH": {
+        "sirius_mapping": ""
     },
     "NAC": {
         "sirius_mapping": "NHS ACCOMMODATION"
