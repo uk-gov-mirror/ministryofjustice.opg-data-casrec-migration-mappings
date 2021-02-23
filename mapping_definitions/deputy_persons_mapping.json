@@ -496,8 +496,8 @@
             "casrec_table": "DEPUTY",
             "casrec_column_name": "Special",
             "alias": "Special",
-            "requires_transformation": "audio_special_req_lookup",
-            "lookup_table": "",
+            "requires_transformation": "",
+            "lookup_table": "audio_special_req_lookup",
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
@@ -517,8 +517,8 @@
             "casrec_table": "DEPUTY",
             "casrec_column_name": "Special",
             "alias": "Special 1",
-            "requires_transformation": "large_print_special_req_lookup",
-            "lookup_table": "",
+            "requires_transformation": "",
+            "lookup_table": "large_print_special_req_lookup",
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
@@ -538,8 +538,8 @@
             "casrec_table": "DEPUTY",
             "casrec_column_name": "Special",
             "alias": "Special 2",
-            "requires_transformation": "hearing_imp_special_req_lookup",
-            "lookup_table": "",
+            "requires_transformation": "",
+            "lookup_table": "hearing_imp_special_req_lookup",
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
