@@ -440,6 +440,27 @@
             "additional_columns": ""
         }
     },
+    "correspondencebywelsh": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "bool",
+            "table_name": "persons"
+        },
+        "transform_casrec": {
+            "casrec_table": "DEPUTY",
+            "casrec_column_name": "Welsh",
+            "alias": "Welsh",
+            "requires_transformation": "",
+            "lookup_table": "corres_indicator_lookup",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
     "countryofresidence": {
         "mapping_status": {
             "is_complete": false
@@ -561,7 +582,7 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": "",
+            "default_value": false,
             "calculated": "",
             "additional_columns": ""
         }
