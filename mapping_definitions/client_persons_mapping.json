@@ -367,7 +367,7 @@
             "table_name": "persons"
         },
         "transform_casrec": {
-            "casrec_table": "Pat",
+            "casrec_table": "PAT",
             "casrec_column_name": "Case",
             "alias": "Case",
             "requires_transformation": "",

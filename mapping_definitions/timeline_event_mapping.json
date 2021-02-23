@@ -78,7 +78,7 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": "",
+            "default_value": "REPORT",
             "calculated": "",
             "additional_columns": ""
         }

@@ -183,7 +183,7 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": "",
+            "default_value": false,
             "calculated": "",
             "additional_columns": ""
         }
@@ -204,7 +204,7 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": "",
+            "default_value": false,
             "calculated": "",
             "additional_columns": ""
         }
@@ -440,48 +440,6 @@
             "additional_columns": ""
         }
     },
-    "clientstatus": {
-        "mapping_status": {
-            "is_complete": true
-        },
-        "sirius_details": {
-            "is_pk": "",
-            "fk_parents": "",
-            "data_type": "str",
-            "table_name": "persons"
-        },
-        "transform_casrec": {
-            "casrec_table": "",
-            "casrec_column_name": "",
-            "alias": "",
-            "requires_transformation": "",
-            "lookup_table": "",
-            "default_value": "Active",
-            "calculated": "",
-            "additional_columns": ""
-        }
-    },
-    "statusdate": {
-        "mapping_status": {
-            "is_complete": true
-        },
-        "sirius_details": {
-            "is_pk": "",
-            "fk_parents": "",
-            "data_type": "date",
-            "table_name": "persons"
-        },
-        "transform_casrec": {
-            "casrec_table": "",
-            "casrec_column_name": "",
-            "alias": "",
-            "requires_transformation": "",
-            "lookup_table": "",
-            "default_value": "",
-            "calculated": "current_date",
-            "additional_columns": ""
-        }
-    },
     "countryofresidence": {
         "mapping_status": {
             "is_complete": false
@@ -538,7 +496,7 @@
             "casrec_table": "DEPUTY",
             "casrec_column_name": "Special",
             "alias": "Special",
-            "requires_transformation": "conditional_lookup",
+            "requires_transformation": "audio_special_req_lookup",
             "lookup_table": "",
             "default_value": "",
             "calculated": "",
@@ -559,7 +517,7 @@
             "casrec_table": "DEPUTY",
             "casrec_column_name": "Special",
             "alias": "Special 1",
-            "requires_transformation": "conditional_lookup",
+            "requires_transformation": "large_print_special_req_lookup",
             "lookup_table": "",
             "default_value": "",
             "calculated": "",
@@ -580,7 +538,7 @@
             "casrec_table": "DEPUTY",
             "casrec_column_name": "Special",
             "alias": "Special 2",
-            "requires_transformation": "conditional_lookup",
+            "requires_transformation": "hearing_imp_special_req_lookup",
             "lookup_table": "",
             "default_value": "",
             "calculated": "",
@@ -598,10 +556,10 @@
             "table_name": "persons"
         },
         "transform_casrec": {
-            "casrec_table": "DEPUTY",
-            "casrec_column_name": "Special",
-            "alias": "Special 3",
-            "requires_transformation": "conditional_lookup",
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
             "lookup_table": "",
             "default_value": "",
             "calculated": "",
@@ -708,7 +666,7 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": "Casrec",
+            "default_value": "CASRECMIGRATION",
             "calculated": "",
             "additional_columns": ""
         }
