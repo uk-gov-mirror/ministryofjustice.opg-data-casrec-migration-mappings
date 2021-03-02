@@ -94,7 +94,7 @@
             "table_name": "order_deputy"
         },
         "transform_casrec": {
-            "casrec_table": "",
+            "casrec_table": "deputy",
             "casrec_column_name": "Stat",
             "alias": "Stat",
             "requires_transformation": "",
@@ -115,7 +115,7 @@
             "table_name": "order_deputy"
         },
         "transform_casrec": {
-            "casrec_table": "",
+            "casrec_table": "deputy",
             "casrec_column_name": "Dep Type",
             "alias": "Dep Type",
             "requires_transformation": "",
@@ -199,11 +199,11 @@
             "table_name": "order_deputy"
         },
         "transform_casrec": {
-            "casrec_table": "",
+            "casrec_table": "deputy",
             "casrec_column_name": "Disch Death",
             "alias": "Disch Death",
             "requires_transformation": "conditional_lookup",
-            "lookup_table": "date_of_death_lookup",
+            "lookup_table": "discharge_date_lookup",
             "default_value": "",
             "calculated": "",
             "additional_columns": "Stat"
