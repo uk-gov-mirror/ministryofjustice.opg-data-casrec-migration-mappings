@@ -72,6 +72,12 @@
             "total_mapped": 8,
             "percentage_complete": 100
         },
+        "notes": {
+            "total_rows": 12,
+            "total_unmapped": 8,
+            "total_mapped": 4,
+            "percentage_complete": 33
+        },
         "caseitem_document": {
             "total_rows": 2,
             "total_unmapped": 0,
@@ -449,12 +455,6 @@
             "total_unmapped": 4,
             "total_mapped": 1,
             "percentage_complete": 20
-        },
-        "notes": {
-            "total_rows": 12,
-            "total_unmapped": 8,
-            "total_mapped": 4,
-            "percentage_complete": 33
         },
         "visits": {
             "total_rows": 19,
