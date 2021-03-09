@@ -7,7 +7,8 @@
             "is_pk": true,
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "person_references"
+            "table_name": "person_references",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -28,7 +29,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "person_references"
+            "table_name": "person_references",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",

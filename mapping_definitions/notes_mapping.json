@@ -7,7 +7,8 @@
             "is_pk": true,
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "notes"
+            "table_name": "notes",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -28,7 +29,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "notes"
+            "table_name": "notes",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -49,7 +51,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "notes"
+            "table_name": "notes",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -70,7 +73,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "notes"
+            "table_name": "notes",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "REMARKS",
@@ -91,7 +95,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "notes"
+            "table_name": "notes",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -112,7 +117,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "notes"
+            "table_name": "notes",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "REMARKS",
@@ -133,7 +139,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "notes"
+            "table_name": "notes",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -154,12 +161,13 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "datetime",
-            "table_name": "notes"
+            "table_name": "notes",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "REMARKS",
-            "casrec_column_name": "Keydate",
-            "alias": "Keydate",
+            "casrec_column_name": "Logdate",
+            "alias": "Logdate",
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "",
@@ -175,7 +183,8 @@
             "is_pk": "",
             "fk_parents": "assignees:id",
             "data_type": "int",
-            "table_name": "notes"
+            "table_name": "notes",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -196,7 +205,8 @@
             "is_pk": "",
             "fk_parents": "uploads:id",
             "data_type": "int",
-            "table_name": "notes"
+            "table_name": "notes",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -217,7 +227,8 @@
             "is_pk": "",
             "fk_parents": "documents:id",
             "data_type": "int",
-            "table_name": "notes"
+            "table_name": "notes",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -238,7 +249,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "notes"
+            "table_name": "notes",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "REMARKS",

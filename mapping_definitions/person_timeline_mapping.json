@@ -7,7 +7,8 @@
             "is_pk": true,
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "person_timeline"
+            "table_name": "person_timeline",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -28,7 +29,8 @@
             "is_pk": "",
             "fk_parents": "persons:id",
             "data_type": "int",
-            "table_name": "person_timeline"
+            "table_name": "person_timeline",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -49,7 +51,8 @@
             "is_pk": "",
             "fk_parents": "timeline_event:id",
             "data_type": "int",
-            "table_name": "person_timeline"
+            "table_name": "person_timeline",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",

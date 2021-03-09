@@ -31,5 +31,8 @@
     },
     "RD": {
         "sirius_mapping": "Case note"
+    },
+    "R5": {
+        "sirius_mapping": "Case note"
     }
 }

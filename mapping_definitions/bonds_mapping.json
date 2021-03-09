@@ -7,7 +7,8 @@
             "is_pk": true,
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "bonds"
+            "table_name": "bonds",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -28,7 +29,8 @@
             "is_pk": "",
             "fk_parents": "cases:id",
             "data_type": "int",
-            "table_name": "bonds"
+            "table_name": "bonds",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -49,7 +51,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "bonds"
+            "table_name": "bonds",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "ORDER",
@@ -70,7 +73,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "Decimal",
-            "table_name": "bonds"
+            "table_name": "bonds",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "ORDER",
@@ -91,7 +95,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "Decimal",
-            "table_name": "bonds"
+            "table_name": "bonds",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "ORDER",
@@ -112,7 +117,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "date",
-            "table_name": "bonds"
+            "table_name": "bonds",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "ORDER",
@@ -133,7 +139,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "date",
-            "table_name": "bonds"
+            "table_name": "bonds",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "ORDER",
@@ -154,7 +161,8 @@
             "is_pk": "",
             "fk_parents": "bond_providers:id",
             "data_type": "int",
-            "table_name": "bonds"
+            "table_name": "bonds",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "ORDER",

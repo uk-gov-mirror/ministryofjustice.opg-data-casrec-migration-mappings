@@ -7,7 +7,8 @@
             "is_pk": true,
             "fk_parents": "cases:id",
             "data_type": "int",
-            "table_name": "caseitem_note"
+            "table_name": "caseitem_note",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -28,7 +29,8 @@
             "is_pk": true,
             "fk_parents": "notes:id",
             "data_type": "int",
-            "table_name": "caseitem_note"
+            "table_name": "caseitem_note",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",

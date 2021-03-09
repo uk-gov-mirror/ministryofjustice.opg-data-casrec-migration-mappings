@@ -7,7 +7,8 @@
             "is_pk": "",
             "fk_parents": "cases:id",
             "data_type": "int",
-            "table_name": "order_deputy"
+            "table_name": "order_deputy",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -28,7 +29,8 @@
             "is_pk": "",
             "fk_parents": "persons:id",
             "data_type": "int",
-            "table_name": "order_deputy"
+            "table_name": "order_deputy",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -49,7 +51,8 @@
             "is_pk": true,
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "order_deputy"
+            "table_name": "order_deputy",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -70,7 +73,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "order_deputy"
+            "table_name": "order_deputy",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "deputy",
@@ -91,7 +95,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "order_deputy"
+            "table_name": "order_deputy",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "deputy",
@@ -112,7 +117,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "datetime",
-            "table_name": "order_deputy"
+            "table_name": "order_deputy",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "deputy",
@@ -133,7 +139,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "order_deputy"
+            "table_name": "order_deputy",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
