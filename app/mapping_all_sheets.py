@@ -48,6 +48,7 @@ class Mapping:
             # 'fk_children',
             "fk_parents",
             "is_complete",
+            "entity"
         ]
         self.columns = columns if len(columns) > 0 else self.default_columns
         self.summary = {}
