@@ -7,7 +7,8 @@
             "is_pk": true,
             "fk_parents": "cases:id",
             "data_type": "int",
-            "table_name": "pa_certificate_provider"
+            "table_name": "pa_certificate_provider",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -28,7 +29,8 @@
             "is_pk": true,
             "fk_parents": "persons:id",
             "data_type": "int",
-            "table_name": "pa_certificate_provider"
+            "table_name": "pa_certificate_provider",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",

@@ -7,7 +7,8 @@
             "is_pk": true,
             "fk_parents": "cases:id",
             "data_type": "int",
-            "table_name": "order_courtfund"
+            "table_name": "order_courtfund",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -28,7 +29,8 @@
             "is_pk": true,
             "fk_parents": "courtfund:id",
             "data_type": "int",
-            "table_name": "order_courtfund"
+            "table_name": "order_courtfund",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
