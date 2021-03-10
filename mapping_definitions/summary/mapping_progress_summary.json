@@ -1,10 +1,10 @@
 {
     "worksheets": {
         "client_persons": {
-            "total_rows": 35,
+            "total_rows": 34,
             "total_unmapped": 5,
-            "total_mapped": 30,
-            "percentage_complete": 86
+            "total_mapped": 29,
+            "percentage_complete": 85
         },
         "deputy_persons": {
             "total_rows": 33,
@@ -541,9 +541,9 @@
             "total_complete": 0
         },
         "fields": {
-            "total_fields": 797,
+            "total_fields": 796,
             "total_unmapped": 483,
-            "total_mapped": 314,
+            "total_mapped": 313,
             "percentage_complete": 39
         }
     }
