@@ -637,28 +637,6 @@
             "additional_columns": ""
         }
     },
-    "digital": {
-        "mapping_status": {
-            "is_complete": true
-        },
-        "sirius_details": {
-            "is_pk": "",
-            "fk_parents": "",
-            "data_type": "bool",
-            "table_name": "persons",
-            "entity": ""
-        },
-        "transform_casrec": {
-            "casrec_table": "",
-            "casrec_column_name": "",
-            "alias": "",
-            "requires_transformation": "",
-            "lookup_table": "",
-            "default_value": false,
-            "calculated": "",
-            "additional_columns": ""
-        }
-    },
     "isorganisation": {
         "mapping_status": {
             "is_complete": true
@@ -743,28 +721,6 @@
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "CASRECMIGRATION",
-            "calculated": "",
-            "additional_columns": ""
-        }
-    },
-    "risk_score": {
-        "mapping_status": {
-            "is_complete": true
-        },
-        "sirius_details": {
-            "is_pk": "",
-            "fk_parents": "",
-            "data_type": "int",
-            "table_name": "persons",
-            "entity": ""
-        },
-        "transform_casrec": {
-            "casrec_table": "CREC",
-            "casrec_column_name": "Score",
-            "alias": "Score",
-            "requires_transformation": "",
-            "lookup_table": "crec_lookup",
-            "default_value": "",
             "calculated": "",
             "additional_columns": ""
         }

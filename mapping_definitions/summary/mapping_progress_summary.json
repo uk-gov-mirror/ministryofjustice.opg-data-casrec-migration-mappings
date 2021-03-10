@@ -1,16 +1,16 @@
 {
     "worksheets": {
         "client_persons": {
-            "total_rows": 36,
+            "total_rows": 34,
             "total_unmapped": 5,
-            "total_mapped": 31,
-            "percentage_complete": 86
+            "total_mapped": 29,
+            "percentage_complete": 85
         },
         "deputy_persons": {
-            "total_rows": 34,
+            "total_rows": 33,
             "total_unmapped": 20,
-            "total_mapped": 14,
-            "percentage_complete": 41
+            "total_mapped": 13,
+            "percentage_complete": 39
         },
         "order_deputy": {
             "total_rows": 7,
@@ -541,10 +541,10 @@
             "total_complete": 0
         },
         "fields": {
-            "total_fields": 799,
+            "total_fields": 796,
             "total_unmapped": 483,
-            "total_mapped": 316,
-            "percentage_complete": 40
+            "total_mapped": 313,
+            "percentage_complete": 39
         }
     }
 }
