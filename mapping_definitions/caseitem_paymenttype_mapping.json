@@ -7,7 +7,8 @@
             "is_pk": true,
             "fk_parents": "cases:id",
             "data_type": "int",
-            "table_name": "caseitem_paymenttype"
+            "table_name": "caseitem_paymenttype",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -28,7 +29,8 @@
             "is_pk": true,
             "fk_parents": "payments:id",
             "data_type": "int",
-            "table_name": "caseitem_paymenttype"
+            "table_name": "caseitem_paymenttype",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",

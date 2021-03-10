@@ -31,5 +31,8 @@
     },
     "RD": {
         "sirius_mapping": "INTERNAL"
+    },
+    "R5": {
+        "sirius_mapping": "INTERNAL"
     }
 }

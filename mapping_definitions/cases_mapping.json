@@ -7,7 +7,8 @@
             "is_pk": true,
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -28,7 +29,8 @@
             "is_pk": "",
             "fk_parents": "assignees:id",
             "data_type": "int",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -49,7 +51,8 @@
             "is_pk": "",
             "fk_parents": "persons:id",
             "data_type": "int",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -70,7 +73,8 @@
             "is_pk": "",
             "fk_parents": "persons:id",
             "data_type": "int",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -91,7 +95,8 @@
             "is_pk": "",
             "fk_parents": "persons:id",
             "data_type": "int",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -112,7 +117,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -133,7 +139,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -154,7 +161,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "ORDER",
@@ -175,7 +183,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "bool",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -196,7 +205,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "bool",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -217,7 +227,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "bool",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -238,7 +249,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "bool",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -259,7 +271,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "bool",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -280,7 +293,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "bool",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -301,7 +315,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "bigint",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -322,7 +337,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -343,7 +359,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -364,7 +381,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "bool",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -385,7 +403,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "bool",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -406,7 +425,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "datetime",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -427,7 +447,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -448,7 +469,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "bool",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -469,7 +491,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "bool",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -490,7 +513,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "bool",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -511,7 +535,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "bool",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -532,7 +557,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "bool",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -553,7 +579,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -574,7 +601,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -595,7 +623,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -616,7 +645,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -637,7 +667,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -658,7 +689,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "bool",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -679,7 +711,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "bool",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -700,7 +733,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -721,7 +755,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -742,7 +777,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -763,7 +799,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -784,7 +821,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -805,7 +843,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "bool",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -826,7 +865,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -847,7 +887,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -868,7 +909,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "bool",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -889,7 +931,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "bool",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -910,7 +953,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "bool",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -931,7 +975,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "date",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "ORDER",
@@ -952,7 +997,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "date",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "ORDER",
@@ -973,7 +1019,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "bool",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "ORDER",
@@ -994,7 +1041,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "ORDER",
@@ -1015,7 +1063,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "date",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1036,7 +1085,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "ORDER",
@@ -1057,7 +1107,8 @@
             "is_pk": "",
             "fk_parents": "persons:id",
             "data_type": "int",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1078,7 +1129,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "datetime",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "ORDER",
@@ -1099,7 +1151,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "date",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "ORDER",
@@ -1120,7 +1173,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1141,7 +1195,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "ORDER",
@@ -1162,7 +1217,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "datetime",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -1183,7 +1239,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "datetime",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "ORDER",
@@ -1204,7 +1261,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "date",
-            "table_name": "cases"
+            "table_name": "cases",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",

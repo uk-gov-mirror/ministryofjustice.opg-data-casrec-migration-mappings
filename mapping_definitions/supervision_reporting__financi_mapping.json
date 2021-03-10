@@ -7,7 +7,8 @@
             "is_pk": true,
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "supervision_reporting__financial_information"
+            "table_name": "supervision_reporting__financial_information",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -28,7 +29,8 @@
             "is_pk": "",
             "fk_parents": "supervision_reporting__reports:id",
             "data_type": "int",
-            "table_name": "supervision_reporting__financial_information"
+            "table_name": "supervision_reporting__financial_information",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -49,7 +51,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "supervision_reporting__financial_information"
+            "table_name": "supervision_reporting__financial_information",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",

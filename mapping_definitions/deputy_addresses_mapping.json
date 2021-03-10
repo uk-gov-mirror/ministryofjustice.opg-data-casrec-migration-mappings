@@ -7,7 +7,8 @@
             "is_pk": true,
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "addresses"
+            "table_name": "addresses",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -28,7 +29,8 @@
             "is_pk": "",
             "fk_parents": "persons:id",
             "data_type": "int",
-            "table_name": "addresses"
+            "table_name": "addresses",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -49,7 +51,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "dict",
-            "table_name": "addresses"
+            "table_name": "addresses",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "DEPUTY_ADDRESS",
@@ -76,7 +79,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "addresses"
+            "table_name": "addresses",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "DEPUTY_ADDRESS",
@@ -97,7 +101,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "addresses"
+            "table_name": "addresses",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "DEPUTY_ADDRESS",
@@ -118,7 +123,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "addresses"
+            "table_name": "addresses",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "DEPUTY_ADDRESS",
@@ -139,7 +145,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "addresses"
+            "table_name": "addresses",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "DEPUTY_ADDRESS",
@@ -160,7 +167,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "addresses"
+            "table_name": "addresses",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -181,7 +189,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "bool",
-            "table_name": "addresses"
+            "table_name": "addresses",
+            "entity": ""
         },
         "transform_casrec": {
             "casrec_table": "DEPUTY_ADDRESS",
