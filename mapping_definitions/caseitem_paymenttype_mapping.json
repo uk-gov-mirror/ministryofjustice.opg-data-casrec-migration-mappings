@@ -8,7 +8,7 @@
             "fk_parents": "cases:id",
             "data_type": "int",
             "table_name": "caseitem_paymenttype",
-            "entity": ""
+            "entity": "finance"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -30,7 +30,7 @@
             "fk_parents": "payments:id",
             "data_type": "int",
             "table_name": "caseitem_paymenttype",
-            "entity": ""
+            "entity": "finance"
         },
         "transform_casrec": {
             "casrec_table": "",

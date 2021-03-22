@@ -8,7 +8,7 @@
             "fk_parents": "cases:id",
             "data_type": "int",
             "table_name": "order_fees",
-            "entity": ""
+            "entity": "finance"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -30,7 +30,7 @@
             "fk_parents": "fees:id",
             "data_type": "int",
             "table_name": "order_fees",
-            "entity": ""
+            "entity": "finance"
         },
         "transform_casrec": {
             "casrec_table": "",

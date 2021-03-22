@@ -8,7 +8,7 @@
             "fk_parents": "assignees:id",
             "data_type": "int",
             "table_name": "assignee_teams",
-            "entity": ""
+            "entity": "users"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -30,7 +30,7 @@
             "fk_parents": "assignees:id",
             "data_type": "int",
             "table_name": "assignee_teams",
-            "entity": ""
+            "entity": "users"
         },
         "transform_casrec": {
             "casrec_table": "",

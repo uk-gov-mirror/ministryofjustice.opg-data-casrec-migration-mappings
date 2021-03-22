@@ -150,18 +150,6 @@
             "total_mapped": 3,
             "percentage_complete": 100
         },
-        "complaints": {
-            "total_rows": 12,
-            "total_unmapped": 10,
-            "total_mapped": 2,
-            "percentage_complete": 17
-        },
-        "document_pages": {
-            "total_rows": 4,
-            "total_unmapped": 2,
-            "total_mapped": 2,
-            "percentage_complete": 50
-        },
         "events": {
             "total_rows": 31,
             "total_unmapped": 10,
@@ -192,18 +180,6 @@
             "total_mapped": 1,
             "percentage_complete": 12
         },
-        "document_secondaryrecipient": {
-            "total_rows": 2,
-            "total_unmapped": 0,
-            "total_mapped": 2,
-            "percentage_complete": 100
-        },
-        "epa_personnotifydonor": {
-            "total_rows": 2,
-            "total_unmapped": 0,
-            "total_mapped": 2,
-            "percentage_complete": 100
-        },
         "finance_person": {
             "total_rows": 6,
             "total_unmapped": 5,
@@ -222,12 +198,6 @@
             "total_mapped": 1,
             "percentage_complete": 17
         },
-        "ingested_documents": {
-            "total_rows": 5,
-            "total_unmapped": 4,
-            "total_mapped": 1,
-            "percentage_complete": 20
-        },
         "finance_order": {
             "total_rows": 4,
             "total_unmapped": 2,
@@ -240,23 +210,11 @@
             "total_mapped": 3,
             "percentage_complete": 19
         },
-        "opgcore_doctrine_migrations": {
-            "total_rows": 1,
-            "total_unmapped": 0,
-            "total_mapped": 1,
-            "percentage_complete": 100
-        },
         "payments": {
             "total_rows": 10,
             "total_unmapped": 9,
             "total_mapped": 1,
             "percentage_complete": 10
-        },
-        "supervision_reporting__account": {
-            "total_rows": 11,
-            "total_unmapped": 9,
-            "total_mapped": 2,
-            "percentage_complete": 18
         },
         "scheduled_events": {
             "total_rows": 7,
@@ -264,49 +222,13 @@
             "total_mapped": 1,
             "percentage_complete": 14
         },
-        "pa_notified_persons": {
-            "total_rows": 2,
-            "total_unmapped": 0,
-            "total_mapped": 2,
-            "percentage_complete": 100
-        },
         "person_note": {
             "total_rows": 2,
             "total_unmapped": 0,
             "total_mapped": 2,
             "percentage_complete": 100
         },
-        "person_document": {
-            "total_rows": 2,
-            "total_unmapped": 0,
-            "total_mapped": 2,
-            "percentage_complete": 100
-        },
-        "person_references": {
-            "total_rows": 2,
-            "total_unmapped": 1,
-            "total_mapped": 1,
-            "percentage_complete": 50
-        },
-        "pa_certificate_provider": {
-            "total_rows": 2,
-            "total_unmapped": 0,
-            "total_mapped": 2,
-            "percentage_complete": 100
-        },
         "person_warning": {
-            "total_rows": 2,
-            "total_unmapped": 0,
-            "total_mapped": 2,
-            "percentage_complete": 100
-        },
-        "pa_applicants": {
-            "total_rows": 2,
-            "total_unmapped": 0,
-            "total_mapped": 2,
-            "percentage_complete": 100
-        },
-        "powerofattorney_person": {
             "total_rows": 2,
             "total_unmapped": 0,
             "total_mapped": 2,
@@ -342,61 +264,13 @@
             "total_mapped": 3,
             "percentage_complete": 21
         },
-        "supervision_reporting__reports": {
-            "total_rows": 12,
-            "total_unmapped": 11,
-            "total_mapped": 1,
-            "percentage_complete": 8
-        },
-        "validation_check": {
-            "total_rows": 5,
-            "total_unmapped": 3,
-            "total_mapped": 2,
-            "percentage_complete": 40
-        },
-        "uploads": {
-            "total_rows": 4,
-            "total_unmapped": 3,
-            "total_mapped": 1,
-            "percentage_complete": 25
-        },
-        "supervision_reporting__assets": {
-            "total_rows": 24,
-            "total_unmapped": 22,
-            "total_mapped": 2,
-            "percentage_complete": 8
-        },
-        "supervision_reporting__transac": {
-            "total_rows": 7,
-            "total_unmapped": 5,
-            "total_mapped": 2,
-            "percentage_complete": 29
-        },
         "visitor": {
             "total_rows": 2,
             "total_unmapped": 1,
             "total_mapped": 1,
             "percentage_complete": 50
         },
-        "supervision_reporting__transfe": {
-            "total_rows": 5,
-            "total_unmapped": 2,
-            "total_mapped": 3,
-            "percentage_complete": 60
-        },
         "caseitem_task": {
-            "total_rows": 2,
-            "total_unmapped": 0,
-            "total_mapped": 2,
-            "percentage_complete": 100
-        },
-        "supervision_reporting__debts": {
-            "total_rows": 5,
-            "total_unmapped": 3,
-            "total_mapped": 2,
-            "percentage_complete": 40
-        },
-        "person_personreference": {
             "total_rows": 2,
             "total_unmapped": 0,
             "total_mapped": 2,
@@ -407,18 +281,6 @@
             "total_unmapped": 4,
             "total_mapped": 2,
             "percentage_complete": 33
-        },
-        "queue_business_rules": {
-            "total_rows": 10,
-            "total_unmapped": 9,
-            "total_mapped": 1,
-            "percentage_complete": 10
-        },
-        "caseitem_queue": {
-            "total_rows": 2,
-            "total_unmapped": 0,
-            "total_mapped": 2,
-            "percentage_complete": 100
         },
         "assignees": {
             "total_rows": 13,
@@ -431,18 +293,6 @@
             "total_unmapped": 0,
             "total_mapped": 2,
             "percentage_complete": 100
-        },
-        "persons": {
-            "total_rows": 81,
-            "total_unmapped": 79,
-            "total_mapped": 2,
-            "percentage_complete": 2
-        },
-        "investigation": {
-            "total_rows": 13,
-            "total_unmapped": 9,
-            "total_mapped": 4,
-            "percentage_complete": 31
         },
         "death_notifications": {
             "total_rows": 10,
@@ -462,24 +312,6 @@
             "total_mapped": 2,
             "percentage_complete": 11
         },
-        "supervision_reporting__financi": {
-            "total_rows": 3,
-            "total_unmapped": 1,
-            "total_mapped": 2,
-            "percentage_complete": 67
-        },
-        "documents": {
-            "total_rows": 35,
-            "total_unmapped": 29,
-            "total_mapped": 6,
-            "percentage_complete": 17
-        },
-        "hold_period": {
-            "total_rows": 7,
-            "total_unmapped": 5,
-            "total_mapped": 2,
-            "percentage_complete": 29
-        },
         "finance_ledger_allocation": {
             "total_rows": 10,
             "total_unmapped": 7,
@@ -492,29 +324,11 @@
             "total_mapped": 3,
             "percentage_complete": 38
         },
-        "supervision_reporting__decisio": {
-            "total_rows": 6,
-            "total_unmapped": 4,
-            "total_mapped": 2,
-            "percentage_complete": 33
-        },
-        "supervision_reporting__welfare": {
-            "total_rows": 16,
-            "total_unmapped": 14,
-            "total_mapped": 2,
-            "percentage_complete": 12
-        },
         "finance_remission_exemption": {
             "total_rows": 8,
             "total_unmapped": 6,
             "total_mapped": 2,
             "percentage_complete": 25
-        },
-        "lineitem": {
-            "total_rows": 4,
-            "total_unmapped": 2,
-            "total_mapped": 2,
-            "percentage_complete": 50
         },
         "persons_migrated": {
             "total_rows": 10,
@@ -537,14 +351,14 @@
     },
     "total": {
         "worksheets": {
-            "total_sheets": 89,
+            "total_sheets": 58,
             "total_complete": 0
         },
         "fields": {
-            "total_fields": 796,
-            "total_unmapped": 483,
-            "total_mapped": 313,
-            "percentage_complete": 39
+            "total_fields": 506,
+            "total_unmapped": 256,
+            "total_mapped": 250,
+            "percentage_complete": 49
         }
     }
 }
