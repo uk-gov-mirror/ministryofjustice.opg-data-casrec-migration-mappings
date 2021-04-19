@@ -7,16 +7,16 @@
             "percentage_complete": 85
         },
         "deputy_persons": {
-            "total_rows": 33,
-            "total_unmapped": 20,
-            "total_mapped": 13,
-            "percentage_complete": 39
+            "total_rows": 23,
+            "total_unmapped": 0,
+            "total_mapped": 23,
+            "percentage_complete": 100
         },
         "order_deputy": {
-            "total_rows": 7,
-            "total_unmapped": 4,
+            "total_rows": 6,
+            "total_unmapped": 3,
             "total_mapped": 3,
-            "percentage_complete": 43
+            "percentage_complete": 50
         },
         "client_addresses": {
             "total_rows": 9,
@@ -50,9 +50,9 @@
         },
         "cases": {
             "total_rows": 58,
-            "total_unmapped": 6,
-            "total_mapped": 52,
-            "percentage_complete": 90
+            "total_unmapped": 5,
+            "total_mapped": 53,
+            "percentage_complete": 91
         },
         "person_caseitem": {
             "total_rows": 2,
@@ -355,10 +355,10 @@
             "total_complete": 0
         },
         "fields": {
-            "total_fields": 506,
-            "total_unmapped": 256,
-            "total_mapped": 250,
-            "percentage_complete": 49
+            "total_fields": 495,
+            "total_unmapped": 234,
+            "total_mapped": 261,
+            "percentage_complete": 53
         }
     }
 }
