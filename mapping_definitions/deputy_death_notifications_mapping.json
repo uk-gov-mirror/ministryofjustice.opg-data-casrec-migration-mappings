@@ -1,4 +1,26 @@
 {
+    "id": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": true,
+            "fk_parents": "",
+            "data_type": "int",
+            "table_name": "death_notifications",
+            "entity": "death_notification"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
     "person_id": {
         "mapping_status": {
             "is_complete": true
@@ -38,7 +60,7 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": 1,
+            "default_value": true,
             "calculated": "",
             "additional_columns": ""
         }
@@ -56,8 +78,8 @@
         },
         "transform_casrec": {
             "casrec_table": "Deputy",
-            "casrec_column_name": "Letter Sent",
-            "alias": "Letter Sent",
+            "casrec_column_name": "Disch Death",
+            "alias": "Disch Death",
             "requires_transformation": "conditional_lookup",
             "lookup_table": "deputy_date_of_death_lookup",
             "default_value": "",
@@ -78,8 +100,8 @@
         },
         "transform_casrec": {
             "casrec_table": "Deputy",
-            "casrec_column_name": "Proof",
-            "alias": "Proof",
+            "casrec_column_name": "Disch Death",
+            "alias": "Disch Death 1",
             "requires_transformation": "conditional_lookup",
             "lookup_table": "deputy_date_of_death_lookup",
             "default_value": "",
@@ -100,8 +122,8 @@
         },
         "transform_casrec": {
             "casrec_table": "Deputy",
-            "casrec_column_name": "Notified",
-            "alias": "Notified",
+            "casrec_column_name": "Disch Death",
+            "alias": "Disch Death 2",
             "requires_transformation": "conditional_lookup",
             "lookup_table": "deputy_date_of_death_lookup",
             "default_value": "",

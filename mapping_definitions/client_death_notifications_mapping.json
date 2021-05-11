@@ -1,4 +1,26 @@
 {
+    "id": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": true,
+            "fk_parents": "",
+            "data_type": "int",
+            "table_name": "death_notifications",
+            "entity": "death_notification"
+        },
+        "transform_casrec": {
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        }
+    },
     "person_id": {
         "mapping_status": {
             "is_complete": true
@@ -38,7 +60,7 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": 1,
+            "default_value": true,
             "calculated": "",
             "additional_columns": ""
         }
@@ -67,7 +89,7 @@
     },
     "datedeathcertificatereceived": {
         "mapping_status": {
-            "is_complete": true
+            "is_complete": false
         },
         "sirius_details": {
             "is_pk": "",
@@ -77,14 +99,14 @@
             "entity": "death_notification"
         },
         "transform_casrec": {
-            "casrec_table": "PAT",
-            "casrec_column_name": "Proof",
-            "alias": "Proof",
-            "requires_transformation": "conditional_lookup",
-            "lookup_table": "proof_lookup",
+            "casrec_table": "",
+            "casrec_column_name": "",
+            "alias": "",
+            "requires_transformation": "",
+            "lookup_table": "",
             "default_value": "",
             "calculated": "",
-            "additional_columns": "Term Type"
+            "additional_columns": ""
         }
     },
     "datenotified": {

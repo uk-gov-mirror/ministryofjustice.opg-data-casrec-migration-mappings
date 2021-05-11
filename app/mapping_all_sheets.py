@@ -241,17 +241,18 @@ class Mapping:
 
         for mapping_file in os.listdir(path):
             if os.path.isfile(os.path.join(path, mapping_file)):
-                file_path =  os.path.join(dirname, "..", path, mapping_file)
-                excel_df = pd.ExcelFile(file_path)
+                if mapping_file[:2] != '~$':
+                    file_path =  os.path.join(dirname, "..", path, mapping_file)
+                    excel_df = pd.ExcelFile(file_path)
 
-                all_sheets_single_file = [
-                    {
-                        self._convert_sheet_name_to_module_name(sheet): pd.read_excel(
-                            excel_df, sheet_name=sheet
-                        )
-                    }
-                    for sheet in excel_df.sheet_names
-                ]
+                    all_sheets_single_file = [
+                        {
+                            self._convert_sheet_name_to_module_name(sheet): pd.read_excel(
+                                excel_df, sheet_name=sheet
+                            )
+                        }
+                        for sheet in excel_df.sheet_names
+                    ]
 
                 all_sheets += all_sheets_single_file
 

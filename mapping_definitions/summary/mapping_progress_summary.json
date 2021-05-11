@@ -1,15 +1,15 @@
 {
     "worksheets": {
         "client_death_notifications": {
-            "total_rows": 8,
-            "total_unmapped": 0,
+            "total_rows": 9,
+            "total_unmapped": 1,
             "total_mapped": 8,
-            "percentage_complete": 100
+            "percentage_complete": 89
         },
         "deputy_death_notifications": {
-            "total_rows": 8,
+            "total_rows": 9,
             "total_unmapped": 0,
-            "total_mapped": 8,
+            "total_mapped": 9,
             "percentage_complete": 100
         },
         "client_violent_warnings": {
@@ -93,14 +93,14 @@
     },
     "total": {
         "worksheets": {
-            "total_sheets": 15,
+            "total_sheets": 17,
             "total_complete": 1
         },
         "fields": {
-            "total_fields": 186,
-            "total_unmapped": 49,
-            "total_mapped": 137,
-            "percentage_complete": 74
+            "total_fields": 208,
+            "total_unmapped": 60,
+            "total_mapped": 148,
+            "percentage_complete": 71
         }
     }
 }
