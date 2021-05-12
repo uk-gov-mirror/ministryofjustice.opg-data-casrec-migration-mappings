@@ -44,9 +44,9 @@ jobs:
       - run:
           name: show progress
           command: cat mapping_definitions/summary/mapping_progress_summary.json
-      - run:
-          name: show file diffs
-          command: cat mapping_definitions/summary/file_diffs.txt
+#      - run:
+#          name: show file diffs
+#          command: cat mapping_definitions/summary/file_diffs.txt
 
   terraform_command:
     executor: terraform/terraform
