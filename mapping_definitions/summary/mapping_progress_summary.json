@@ -151,9 +151,15 @@
             "total_complete": 3
         },
         "fields": {
+<<<<<<< Updated upstream
             "total_fields": 272,
             "total_unmapped": 70,
             "total_mapped": 202,
+=======
+            "total_fields": 274,
+            "total_unmapped": 71,
+            "total_mapped": 203,
+>>>>>>> Stashed changes
             "percentage_complete": 74
         }
     }
