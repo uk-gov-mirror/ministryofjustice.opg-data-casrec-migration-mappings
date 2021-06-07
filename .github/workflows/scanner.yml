@@ -5,8 +5,8 @@ on:
     branches:
       - "main"
   schedule:
-    # Every Monday, at 10:40am UTC
-    - cron: '40 10 * * 1'
+    # Every Monday, at 13:40 UTC
+    - cron: '40 13 * * 1'
 
 jobs:
   run:
