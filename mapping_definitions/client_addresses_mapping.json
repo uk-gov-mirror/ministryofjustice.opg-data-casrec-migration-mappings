@@ -7,8 +7,8 @@
             "is_pk": true,
             "fk_parents": "",
             "data_type": "int",
-            "table_name": "death_notifications",
-            "entity": "death_notification"
+            "table_name": "addresses",
+            "entity": "client"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -32,8 +32,8 @@
             "is_pk": "",
             "fk_parents": "persons:id",
             "data_type": "int",
-            "table_name": "death_notifications",
-            "entity": "death_notification"
+            "table_name": "addresses",
+            "entity": "client"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -43,27 +43,58 @@
             "lookup_table": "",
             "default_value": "",
             "calculated": "",
-            "additional_columns": ""
+            "additional_columns": "Case"
         },
         "prepare": {
             "sync": ""
         }
     },
-    "datelettersentout": {
+    "address_lines": {
         "mapping_status": {
             "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "date",
-            "table_name": "death_notifications",
-            "entity": "death_notification"
+            "data_type": "dict",
+            "table_name": "addresses",
+            "entity": "client"
         },
         "transform_casrec": {
             "casrec_table": "PAT",
-            "casrec_column_name": "Letter Sent",
-            "alias": "Letter Sent",
+            "casrec_column_name": [
+                "Adrs1",
+                "Adrs2"
+            ],
+            "alias": [
+                "Adrs1",
+                "Adrs2"
+            ],
+            "requires_transformation": "squash_columns",
+            "lookup_table": "",
+            "default_value": "",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "town": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "str",
+            "table_name": "addresses",
+            "entity": "client"
+        },
+        "transform_casrec": {
+            "casrec_table": "PAT",
+            "casrec_column_name": "Adrs3",
+            "alias": "Adrs3",
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "",
@@ -74,21 +105,21 @@
             "sync": ""
         }
     },
-    "datenotified": {
+    "county": {
         "mapping_status": {
             "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
             "fk_parents": "",
-            "data_type": "date",
-            "table_name": "death_notifications",
-            "entity": "death_notification"
+            "data_type": "str",
+            "table_name": "addresses",
+            "entity": "client"
         },
         "transform_casrec": {
             "casrec_table": "PAT",
-            "casrec_column_name": "Notified",
-            "alias": "Notified",
+            "casrec_column_name": "Adrs4",
+            "alias": "Adrs4",
             "requires_transformation": "",
             "lookup_table": "",
             "default_value": "",
@@ -99,7 +130,7 @@
             "sync": ""
         }
     },
-    "notifiedby": {
+    "postcode": {
         "mapping_status": {
             "is_complete": true
         },
@@ -107,15 +138,15 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "death_notifications",
-            "entity": "death_notification"
+            "table_name": "addresses",
+            "entity": "client"
         },
         "transform_casrec": {
             "casrec_table": "PAT",
-            "casrec_column_name": "Term by",
-            "alias": "Term by",
+            "casrec_column_name": "Postcode",
+            "alias": "Postcode",
             "requires_transformation": "",
-            "lookup_table": "termby_lookup",
+            "lookup_table": "",
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
@@ -124,7 +155,7 @@
             "sync": ""
         }
     },
-    "notificationmethod": {
+    "country": {
         "mapping_status": {
             "is_complete": true
         },
@@ -132,15 +163,15 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "death_notifications",
-            "entity": "death_notification"
+            "table_name": "addresses",
+            "entity": "client"
         },
         "transform_casrec": {
             "casrec_table": "PAT",
-            "casrec_column_name": "Notify",
-            "alias": "Notify",
+            "casrec_column_name": "Adrs5",
+            "alias": "Adrs5",
             "requires_transformation": "",
-            "lookup_table": "notify_type_lookup",
+            "lookup_table": "",
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
@@ -149,7 +180,7 @@
             "sync": ""
         }
     },
-    "notes": {
+    "type": {
         "mapping_status": {
             "is_complete": true
         },
@@ -157,8 +188,8 @@
             "is_pk": "",
             "fk_parents": "",
             "data_type": "str",
-            "table_name": "death_notifications",
-            "entity": "death_notification"
+            "table_name": "addresses",
+            "entity": "client"
         },
         "transform_casrec": {
             "casrec_table": "",
@@ -166,7 +197,32 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": "Migrated",
+            "default_value": "Primary",
+            "calculated": "",
+            "additional_columns": ""
+        },
+        "prepare": {
+            "sync": ""
+        }
+    },
+    "isairmailrequired": {
+        "mapping_status": {
+            "is_complete": true
+        },
+        "sirius_details": {
+            "is_pk": "",
+            "fk_parents": "",
+            "data_type": "bool",
+            "table_name": "addresses",
+            "entity": "client"
+        },
+        "transform_casrec": {
+            "casrec_table": "PAT",
+            "casrec_column_name": "Foreign",
+            "alias": "Foreign",
+            "requires_transformation": "convert_to_bool",
+            "lookup_table": "",
+            "default_value": "",
             "calculated": "",
             "additional_columns": ""
         },
