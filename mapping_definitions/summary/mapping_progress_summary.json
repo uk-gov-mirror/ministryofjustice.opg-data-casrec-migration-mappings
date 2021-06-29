@@ -13,10 +13,10 @@
             "percentage_complete": 100
         },
         "crec_persons": {
-            "total_rows": 81,
-            "total_unmapped": 78,
+            "total_rows": 3,
+            "total_unmapped": 0,
             "total_mapped": 3,
-            "percentage_complete": 4
+            "percentage_complete": 100
         },
         "client_violent_warnings": {
             "total_rows": 6,
@@ -163,10 +163,10 @@
             "total_complete": 3
         },
         "fields": {
-            "total_fields": 354,
-            "total_unmapped": 140,
+            "total_fields": 276,
+            "total_unmapped": 62,
             "total_mapped": 214,
-            "percentage_complete": 60
+            "percentage_complete": 78
         }
     }
 }
