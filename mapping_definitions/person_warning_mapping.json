@@ -4,7 +4,7 @@
             "is_complete": true
         },
         "sirius_details": {
-            "is_pk": "",
+            "is_pk": true,
             "fk_parents": "persons:id",
             "data_type": "int",
             "table_name": "person_warning",
@@ -29,7 +29,7 @@
             "is_complete": true
         },
         "sirius_details": {
-            "is_pk": "",
+            "is_pk": true,
             "fk_parents": "warnings:id",
             "data_type": "int",
             "table_name": "person_warning",
