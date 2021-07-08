@@ -306,7 +306,7 @@
         "required_entities": "",
         "source_conditions": "",
         "source_table_additional_columns": [
-            ""
+            "Case"
         ],
         "source_table_name": "repvis",
         "table_type": "data"
