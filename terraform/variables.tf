@@ -1,5 +1,5 @@
 variable "default_role" {
-  default = "integrations-ci"
+  default = "migrations-ci"
 }
 
 locals {
