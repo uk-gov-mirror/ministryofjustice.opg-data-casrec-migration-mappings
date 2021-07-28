@@ -7,10 +7,8 @@ Mappings automation and versioning for CasRec migration: Managed by opg-org-infr
 2. Make your changes in the spreadsheet in `opg-data-casrec-migration-mappings/mapping_spreadsheet/Casrec_Mapping_Document.xlsx` and save in the same location
 3. In the terminal, `cd` into the `opg-data-casrec-migration-mappings` folder
 4. Make sure docker is running!
-5. The run this: `sh generate_json_files.sh` to generate the json defs in the folder `opg-data-casrec-migration-mappings/mapping_definitions`
+5. The run this: `docker-compose run --rm  generate python3 app/app.py` to generate the json defs in the folder `opg-data-casrec-migration-mappings/mapping_definitions`
 6. Commit all the json and spreadsheet changes to your branch and PR
-
-
 
 ## Self versioning
 

@@ -126,7 +126,7 @@
     },
     "visitoutcome": {
         "mapping_status": {
-            "is_complete": false
+            "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
@@ -140,7 +140,7 @@
             "casrec_column_name": "Outcome",
             "alias": "Outcome",
             "requires_transformation": "",
-            "lookup_table": "",
+            "lookup_table": "visit_outcome_lookup",
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
@@ -190,7 +190,7 @@
             "casrec_column_name": "Report Rcvd.",
             "alias": "Report Rcvd.",
             "requires_transformation": "",
-            "lookup_table": "visit_outcome_lookup",
+            "lookup_table": "",
             "default_value": "",
             "calculated": "",
             "additional_columns": ""
