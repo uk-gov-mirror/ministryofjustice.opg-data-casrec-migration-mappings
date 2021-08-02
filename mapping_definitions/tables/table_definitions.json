@@ -255,6 +255,17 @@
         "source_table_name": "deputy",
         "table_type": "data"
     },
+    "notes": {
+        "destination_table_name": "supervision_notes",
+        "entity_name": "notes",
+        "required_entities": "persons",
+        "source_conditions": "",
+        "source_table_additional_columns": [
+            "Case"
+        ],
+        "source_table_name": "remarks",
+        "table_type": "data"
+    },
     "order_deputy": {
         "destination_table_name": "order_deputy",
         "entity_name": "deputies",
