@@ -66,7 +66,7 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": "OTHER",
+            "default_value": "Other",
             "calculated": "",
             "additional_columns": ""
         },
