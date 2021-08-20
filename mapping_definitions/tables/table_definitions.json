@@ -255,6 +255,25 @@
         "source_table_name": "deputy",
         "table_type": "data"
     },
+    "finance_invoice_ad": {
+        "destination_table_name": "finance_invoice",
+        "entity_name": "invoice",
+        "required_entities": "",
+        "source_conditions": {
+            "Invoice_Type": "AD",
+            "first_x_chars": {
+                "col": "Invoice No",
+                "num": 2,
+                "result_col": "Invoice_Type"
+            }
+        },
+        "source_table_additional_columns": [
+            "Case",
+            "Invoice No"
+        ],
+        "source_table_name": "feeexport",
+        "table_type": "data"
+    },
     "notes": {
         "destination_table_name": "supervision_notes",
         "entity_name": "notes",
