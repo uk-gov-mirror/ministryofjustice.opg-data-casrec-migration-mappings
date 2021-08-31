@@ -90,7 +90,13 @@
             "total_mapped": 2,
             "percentage_complete": 100
         },
-        "bonds": {
+        "bonds_active": {
+            "total_rows": 9,
+            "total_unmapped": 0,
+            "total_mapped": 9,
+            "percentage_complete": 100
+        },
+        "bonds_dispensed": {
             "total_rows": 9,
             "total_unmapped": 0,
             "total_mapped": 9,
@@ -189,14 +195,14 @@
     },
     "total": {
         "worksheets": {
-            "total_sheets": 31,
+            "total_sheets": 32,
             "total_complete": 3
         },
         "fields": {
-            "total_fields": 340,
+            "total_fields": 349,
             "total_unmapped": 91,
-            "total_mapped": 249,
-            "percentage_complete": 73
+            "total_mapped": 258,
+            "percentage_complete": 74
         }
     }
 }
