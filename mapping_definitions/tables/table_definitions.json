@@ -21,12 +21,26 @@
         "source_table_name": "account",
         "table_type": "data"
     },
-    "bonds": {
+    "bonds_active": {
         "destination_table_name": "bonds",
         "entity_name": "bonds",
         "required_entities": "",
         "source_conditions": {
             "Bond Rqd": "Y"
+        },
+        "source_table_additional_columns": [
+            "CoP Case",
+            "Bond Rqd"
+        ],
+        "source_table_name": "order",
+        "table_type": "data"
+    },
+    "bonds_dispensed": {
+        "destination_table_name": "bonds",
+        "entity_name": "bonds",
+        "required_entities": "",
+        "source_conditions": {
+            "Bond Rqd": "S"
         },
         "source_table_additional_columns": [
             "CoP Case",
