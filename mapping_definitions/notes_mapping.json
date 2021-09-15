@@ -116,7 +116,7 @@
             "alias": "Remarks",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": "",
+            "default_value": "no descriptionmigrated",
             "calculated": "",
             "additional_columns": ""
         },
