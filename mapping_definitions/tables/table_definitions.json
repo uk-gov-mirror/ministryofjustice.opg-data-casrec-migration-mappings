@@ -410,6 +410,17 @@
         "source_table_name": "",
         "table_type": "join"
     },
+    "person_task": {
+        "destination_table_name": "person_task",
+        "entity_name": "tasks",
+        "required_entities": "",
+        "source_conditions": "",
+        "source_table_additional_columns": [
+            ""
+        ],
+        "source_table_name": "",
+        "table_type": "join"
+    },
     "person_warning": {
         "destination_table_name": "person_warning",
         "entity_name": "warnings",
@@ -431,6 +442,17 @@
             "Order No"
         ],
         "source_table_name": "order",
+        "table_type": "data"
+    },
+    "tasks": {
+        "destination_table_name": "",
+        "entity_name": "tasks",
+        "required_entities": "",
+        "source_conditions": "",
+        "source_table_additional_columns": [
+            "Case"
+        ],
+        "source_table_name": "sup_activity",
         "table_type": "data"
     },
     "visits": {

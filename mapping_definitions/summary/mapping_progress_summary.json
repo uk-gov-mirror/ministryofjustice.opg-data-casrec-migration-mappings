@@ -150,6 +150,18 @@
             "total_mapped": 4,
             "percentage_complete": 57
         },
+        "tasks": {
+            "total_rows": 9,
+            "total_unmapped": 0,
+            "total_mapped": 9,
+            "percentage_complete": 100
+        },
+        "person_task": {
+            "total_rows": 2,
+            "total_unmapped": 0,
+            "total_mapped": 2,
+            "percentage_complete": 100
+        },
         "visits": {
             "total_rows": 16,
             "total_unmapped": 0,
@@ -207,14 +219,14 @@
     },
     "total": {
         "worksheets": {
-            "total_sheets": 34,
+            "total_sheets": 36,
             "total_complete": 1
         },
         "fields": {
-            "total_fields": 377,
+            "total_fields": 388,
             "total_unmapped": 91,
-            "total_mapped": 286,
-            "percentage_complete": 76
+            "total_mapped": 297,
+            "percentage_complete": 77
         }
     }
 }
