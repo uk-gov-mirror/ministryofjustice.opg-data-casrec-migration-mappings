@@ -1,0 +1,389 @@
+{
+    "handover": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Reminder to follow up action on case": {
+        "sirius_mapping": "Casework - General"
+    },
+    "visit to be commissioned on a set date. Also to be furthered on 8 weeks when vi": {
+        "sirius_mapping": "Visit - Commission"
+    },
+    "To be set by Band D where we are awaiting further information before reassessing a case.": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Review the case to ensure that appropriate interventions have been carried out.": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Send out an ad-hoc ficial report. Review and consider follow-up action.": {
+        "sirius_mapping": "Casework - General"
+    },
+    "use chase process for debt.": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Contact D to remind him that a time-limited order will expire shortly.": {
+        "sirius_mapping": "Order Expiry (DC7)"
+    },
+    "Order assessed from Lay deputies copy - Original copy to be verified when received from CoP": {
+        "sirius_mapping": "Order - Review the order"
+    },
+    "date set for checking something on the case": {
+        "sirius_mapping": "Casework - General"
+    },
+    "date set for checking soemthing on the case": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Contact call within 28 days for LA cases to establish reason for 2A and resolve": {
+        "sirius_mapping": "Casework - General"
+    },
+    "URGENT VISIT REPORT": {
+        "sirius_mapping": "Visit - Commission"
+    },
+    "HW Non-Compliant Visit Report Due": {
+        "sirius_mapping": "Visit - Commission"
+    },
+    "visit to be commissioned on a set date.": {
+        "sirius_mapping": "Visit - Commission"
+    },
+    "Submission of New Deputy Report": {
+        "sirius_mapping": "First Contact - NDR Review"
+    },
+    "Telephone Review type 2A": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Reminder to monitor Deputy's progress to ensure they are dealing with neccessary matters.": {
+        "sirius_mapping": "Casework - General"
+    },
+    "To monitor the cases where we have requested the deputy seeks retrospective court approval": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Further information request date HW2": {
+        "sirius_mapping": "Casework - General"
+    },
+    "First Contact Call to be completed": {
+        "sirius_mapping": "First Contact - Introductory Call"
+    },
+    "Visit Commision due": {
+        "sirius_mapping": "Visit - Commission"
+    },
+    "RRT TEAM USE": {
+        "sirius_mapping": "Casework - Non-compliant"
+    },
+    "LAY CATCH UP TELEPHONE CALL - general activity": {
+        "sirius_mapping": "First Contact - Catch Up Call"
+    },
+    "To be set by band E when there are non urgent concerns that need to be followed up by a Band D. Urgent concerns to casework inbox.": {
+        "sirius_mapping": "Casework - General"
+    },
+    "HW URGENT VISIT REPORT": {
+        "sirius_mapping": "Visit - Commission"
+    },
+    "Call back required to answer a query that could not be answered due to system down time": {
+        "sirius_mapping": "Casework - Reply Due"
+    },
+    "to be set at time of commission for 12 weeks.": {
+        "sirius_mapping": "Visit - Report due"
+    },
+    "Check case status": {
+        "sirius_mapping": "Casework - General"
+    },
+    "telephone call to check on case": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Further case management required to complete work started during downtime": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Settling in call due": {
+        "sirius_mapping": "First Contact - Settling in call"
+    },
+    "Date set for deadline given to deputy for info or return of something": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Case Review type 2": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Issued FCC questionaire and await return": {
+        "sirius_mapping": "First Contact - Questionnaire sent"
+    },
+    "Visit D,P or 3rd party to establish an issue of capacity": {
+        "sirius_mapping": "Visit - Commission"
+    },
+    "To be set by band E when there are non urgent concerns that need to be followed up byby a Band D. Urgent concerns to 2A inbox.": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Review the case to ensure that the appropriate interventions have been carried out.": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Type 3 FCC Questionnaire reminder": {
+        "sirius_mapping": "First Contact - Questionnaire sent"
+    },
+    "Activity to remind caseworker that a visit report should have been submitted for review": {
+        "sirius_mapping": "Visit - Report due"
+    },
+    "Remider to follow up action on case": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Automatic introductory prompt on the first assessment for HW.": {
+        "sirius_mapping": "Casework - reassessment decision required"
+    },
+    "visit to be commissioned on a set date. Also to be furthered on 8 weeks when visit is commissioned.": {
+        "sirius_mapping": "Visit - Commission"
+    },
+    "SETTLING IN CALL- Lay Deputy Pathfinder": {
+        "sirius_mapping": "First Contact - Settling in call"
+    },
+    "Non-Compliant Stage Two": {
+        "sirius_mapping": "Casework - Non-compliant"
+    },
+    "Use chase process for non compliant +": {
+        "sirius_mapping": "Casework - Non-compliant"
+    },
+    "Activity to prompt proof of death checks etc.": {
+        "sirius_mapping": "Casework - Proof of death"
+    },
+    "Annual report required for H+W only.": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Automatic introductory prompt for first assessment HW 2A.": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Call back required to answer query that we were unable to answer due to system down time": {
+        "sirius_mapping": "Casework - Reply Due"
+    },
+    "Case Review": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Case Review type 2A": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Cases from Type 2A backlog where man plan may not be required.": {
+        "sirius_mapping": "Casework - General"
+    },
+    "CATCH UP CALL": {
+        "sirius_mapping": "First Contact - Catch up call"
+    },
+    "Contact call to establish reason for 2a and resolve concerns": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Date set for checking soemthing on the case": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Date set for checking something on the case": {
+        "sirius_mapping": "Casework - General"
+    },
+    "date set for deadline given to deputy for info or return of something": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Deadline for return of Cost Certificate": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Deadline for return of Indemnity Insurance Certificate": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Deadline given to deputy": {
+        "sirius_mapping": "Casework - General"
+    },
+    "FINAL DEADLINE- failure to meet this deadline will result in escalation.": {
+        "sirius_mapping": "Casework - non-compliant"
+    },
+    "First contact call to be completed as outstanding OPG fees or bonds are in forc": {
+        "sirius_mapping": "Casework - General"
+    },
+    "first contact call to be completed as outstanding OPG fees or bonds are in force": {
+        "sirius_mapping": "Casework - General"
+    },
+    "First contact call to be completed as outstanding OPG fees or bonds are in force": {
+        "sirius_mapping": "Casework - General"
+    },
+    "First written or verbal contact to be made with deputy": {
+        "sirius_mapping": "Casework - General"
+    },
+    "For the 28 day review period": {
+        "sirius_mapping": "Casework - General"
+    },
+    "H+W visit": {
+        "sirius_mapping": "Visit - Commission"
+    },
+    "Handover of work": {
+        "sirius_mapping": "Casework - General"
+    },
+    "HW Non-Compliant Stage One": {
+        "sirius_mapping": "Casework - Non-compliant"
+    },
+    "HW Non-Compliant Stage Two": {
+        "sirius_mapping": "Casework - Non-compliant"
+    },
+    "HW Non-Compliant Visit Commission": {
+        "sirius_mapping": "Visit - Commission"
+    },
+    "Introductory Telephone Call - New Deputy": {
+        "sirius_mapping": "First Contact - Introductory call"
+    },
+    "INTRODUCTORY TELEPHONE CALL- Lay Deputy Pathfinder": {
+        "sirius_mapping": "First Contact - Introductory call"
+    },
+    "INTRODUCTORY TELEPHONE CALL- Lay deputy Pathfinder": {
+        "sirius_mapping": "First Contact - Introductory call"
+    },
+    "iSSUED fcc qUESTIONAIRE AND AWAIT RETURN": {
+        "sirius_mapping": "First Contact - Questionnaire sent"
+    },
+    "LAY CATCH UP CALL": {
+        "sirius_mapping": "First Contact - Catch up call"
+    },
+    "Lay Order assessed from Lay deputies copy - Original copy to be verified when received from CoP": {
+        "sirius_mapping": "Order - Review the order"
+    },
+    "Lay Order assessed from Lay deputies copy - Original copyto be verified when received from CoP": {
+        "sirius_mapping": "Order - Review the order"
+    },
+    "Monitor where Deputy has been asked to seek retrospective court approval": {
+        "sirius_mapping": "Casework - General"
+    },
+    "NDR Due Activity": {
+        "sirius_mapping": "First Contact - NDR Review"
+    },
+    "Non Urgent concerns to be reviewed by Band D": {
+        "sirius_mapping": "Casework - General"
+    },
+    "NON-COMP VISIT COMMISSION": {
+        "sirius_mapping": "Visit - Commission"
+    },
+    "NON-COMP VISIT REPORT DUE": {
+        "sirius_mapping": "Visit - Report due"
+    },
+    "Non-Compliance": {
+        "sirius_mapping": "Casework - Non-compliant"
+    },
+    "Non-Compliant Escalation to Case Forum": {
+        "sirius_mapping": "Casework - Non-compliant"
+    },
+    "Non-Compliant Stage One": {
+        "sirius_mapping": "Casework - Non-compliant"
+    },
+    "possible to replace 3rd year onward visit": {
+        "sirius_mapping": "Visit - Commission"
+    },
+    "Remider to check if deputy has met set deadline.": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Remider to monitor Deputy's progress to ensure they are dealing with neccessary matters.": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Reminder to chase further information.": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Reminder to check case": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Review of TYPE3 case following single contact": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Review terms of the order to check that they are being complied with": {
+        "sirius_mapping": "Order - Review the order"
+    },
+    "Review the annual ficial report. Consider follow-up action.": {
+        "sirius_mapping": "Report - review report"
+    },
+    "Review the level of the bond to ensure it is set at the correct level": {
+        "sirius_mapping": "Casework - General"
+    },
+    "RRT TEAM": {
+        "sirius_mapping": "Casework - General"
+    },
+    "SAFEGUARDING EMAIL RECEIVED, REFERRED TO CASE MANAGEMENT TEAM": {
+        "sirius_mapping": "Casework - Safeguarding"
+    },
+    "Set when next step is court apps team": {
+        "sirius_mapping": "Casework - Non-compliant"
+    },
+    "SETTLING IN CALL - Lay": {
+        "sirius_mapping": "First Contact - Settling in call"
+    },
+    "Settling in call due.": {
+        "sirius_mapping": "First Contact - Settling in call"
+    },
+    "Subsequent contact to be made with 3rd parties": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Subsequent contact to be made with the deputy": {
+        "sirius_mapping": "Casework - General"
+    },
+    "TEL REV ON LOCAL AUTHORITY CASE": {
+        "sirius_mapping": "Casework - General"
+    },
+    "TEL REV ON PROFESSIONAL CASE": {
+        "sirius_mapping": "Casework - General"
+    },
+    "TEL REV ON PUBLIC AUTHORITY CASE": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Telephone call to check on case": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Telephone contact on cases after FCC": {
+        "sirius_mapping": "First Conact - Catch up call"
+    },
+    "telephone contact on cases after FCC": {
+        "sirius_mapping": "First Contact - Catch up call"
+    },
+    "Telephone Review type 2": {
+        "sirius_mapping": "Casework - General"
+    },
+    "To be set at point of man plan/ To be set 15 months from date of order.": {
+        "sirius_mapping": "Casework - General"
+    },
+    "To check case status": {
+        "sirius_mapping": "Casework - General"
+    },
+    "To ensure II2 work is carried out if work carried out on complex case or if it is to remain 2A": {
+        "sirius_mapping": "Casework - General"
+    },
+    "To montior cases where we have requested the deputy seeks retrospective court approval.": {
+        "sirius_mapping": "Casework - General"
+    },
+    "use chase process for non compliant.": {
+        "sirius_mapping": "Casework - General"
+    },
+    "Visit Commission due": {
+        "sirius_mapping": "Visit - Commission"
+    },
+    "Visit commission due for HW": {
+        "sirius_mapping": "Visit - Commission"
+    },
+    "Visit commission for HW type 2 cases": {
+        "sirius_mapping": "Visit - Commission"
+    },
+    "Visit D, P or 3rd party": {
+        "sirius_mapping": "Visit - Commission"
+    },
+    "Visit D,P or 3rd party to advise on ficial report or examine ficial records": {
+        "sirius_mapping": "Visit - Commission"
+    },
+    "Visit follow up for HW type 2 cases": {
+        "sirius_mapping": "Visit - Commission"
+    },
+    "visit for professional case": {
+        "sirius_mapping": "Visit - Commission"
+    },
+    "Visit for professional case": {
+        "sirius_mapping": "Visit - Commission"
+    },
+    "Visit on Lay deputy case": {
+        "sirius_mapping": "Visit - Commission"
+    },
+    "visit on local authority case": {
+        "sirius_mapping": "Visit - Commission"
+    },
+    "Visit on local authority case": {
+        "sirius_mapping": "Visit - Commission"
+    },
+    "Visit on Type 2 case": {
+        "sirius_mapping": "Visit - Commission"
+    },
+    "Visit on Type 3 case": {
+        "sirius_mapping": "Visit - Commission"
+    },
+    "Visit repot should be returned 12 weeks from this date.": {
+        "sirius_mapping": "Visit Report Due"
+    }
+}
