@@ -445,7 +445,7 @@
         "table_type": "data"
     },
     "tasks": {
-        "destination_table_name": "",
+        "destination_table_name": "tasks",
         "entity_name": "tasks",
         "required_entities": "",
         "source_conditions": "",

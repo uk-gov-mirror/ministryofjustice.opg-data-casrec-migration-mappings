@@ -61,12 +61,12 @@
             "entity": "tasks"
         },
         "transform_casrec": {
-            "casrec_table": "",
-            "casrec_column_name": "",
-            "alias": "",
+            "casrec_table": "SUP_ACTIVITY",
+            "casrec_column_name": "Status",
+            "alias": "Status",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": "Not started",
+            "default_value": "",
             "calculated": "",
             "additional_columns": ""
         },
