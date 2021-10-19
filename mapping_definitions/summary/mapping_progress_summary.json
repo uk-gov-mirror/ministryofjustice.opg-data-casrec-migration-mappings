@@ -121,10 +121,10 @@
             "percentage_complete": 100
         },
         "notes": {
-            "total_rows": 9,
-            "total_unmapped": 6,
-            "total_mapped": 3,
-            "percentage_complete": 33
+            "total_rows": 7,
+            "total_unmapped": 0,
+            "total_mapped": 7,
+            "percentage_complete": 100
         },
         "annual_report_logs": {
             "total_rows": 21,
@@ -223,10 +223,10 @@
             "total_complete": 1
         },
         "fields": {
-            "total_fields": 388,
-            "total_unmapped": 91,
-            "total_mapped": 297,
-            "percentage_complete": 77
+            "total_fields": 386,
+            "total_unmapped": 85,
+            "total_mapped": 301,
+            "percentage_complete": 78
         }
     }
 }
