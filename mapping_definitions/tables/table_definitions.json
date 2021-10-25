@@ -100,6 +100,17 @@
         "source_table_name": "pat",
         "table_type": "data"
     },
+    "client_notes": {
+        "destination_table_name": "supervision_notes",
+        "entity_name": "notes",
+        "required_entities": "persons",
+        "source_conditions": "",
+        "source_table_additional_columns": [
+            "Case"
+        ],
+        "source_table_name": "remarks",
+        "table_type": "data"
+    },
     "client_persons": {
         "destination_table_name": "persons",
         "entity_name": "clients",
@@ -234,6 +245,17 @@
             "Deputy No"
         ],
         "source_table_name": "deputy",
+        "table_type": "data"
+    },
+    "deputy_notes": {
+        "destination_table_name": "supervision_notes",
+        "entity_name": "notes",
+        "required_entities": "persons",
+        "source_conditions": "",
+        "source_table_additional_columns": [
+            "Deputy No"
+        ],
+        "source_table_name": "deputy_remarks",
         "table_type": "data"
     },
     "deputy_persons": {
@@ -374,17 +396,6 @@
             "Orig Invoice"
         ],
         "source_table_name": "feeexport",
-        "table_type": "data"
-    },
-    "notes": {
-        "destination_table_name": "supervision_notes",
-        "entity_name": "notes",
-        "required_entities": "persons",
-        "source_conditions": "",
-        "source_table_additional_columns": [
-            "Case"
-        ],
-        "source_table_name": "remarks",
         "table_type": "data"
     },
     "order_deputy": {

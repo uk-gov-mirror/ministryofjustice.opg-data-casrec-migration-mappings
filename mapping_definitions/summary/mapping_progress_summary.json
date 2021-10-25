@@ -120,7 +120,13 @@
             "total_mapped": 2,
             "percentage_complete": 100
         },
-        "notes": {
+        "client_notes": {
+            "total_rows": 8,
+            "total_unmapped": 0,
+            "total_mapped": 8,
+            "percentage_complete": 100
+        },
+        "deputy_notes": {
             "total_rows": 8,
             "total_unmapped": 0,
             "total_mapped": 8,
@@ -219,13 +225,13 @@
     },
     "total": {
         "worksheets": {
-            "total_sheets": 36,
+            "total_sheets": 37,
             "total_complete": 1
         },
         "fields": {
-            "total_fields": 387,
+            "total_fields": 395,
             "total_unmapped": 85,
-            "total_mapped": 302,
+            "total_mapped": 310,
             "percentage_complete": 78
         }
     }
