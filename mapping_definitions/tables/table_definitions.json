@@ -26,11 +26,18 @@
         "entity_name": "bonds",
         "required_entities": "",
         "source_conditions": {
-            "Bond Rqd": "Y"
+            "Bond Rqd": "Y",
+            "exclude_values": {
+                "col": "Ord Stat",
+                "values": [
+                    "Open"
+                ]
+            }
         },
         "source_table_additional_columns": [
             "CoP Case",
-            "Bond Rqd"
+            "Bond Rqd",
+            "Ord Stat"
         ],
         "source_table_name": "order",
         "table_type": "data"
@@ -40,11 +47,18 @@
         "entity_name": "bonds",
         "required_entities": "",
         "source_conditions": {
-            "Bond Rqd": "S"
+            "Bond Rqd": "S",
+            "exclude_values": {
+                "col": "Ord Stat",
+                "values": [
+                    "Open"
+                ]
+            }
         },
         "source_table_additional_columns": [
             "CoP Case",
-            "Bond Rqd"
+            "Bond Rqd",
+            "Ord Stat"
         ],
         "source_table_name": "order",
         "table_type": "data"
@@ -53,11 +67,19 @@
         "destination_table_name": "cases",
         "entity_name": "cases",
         "required_entities": "",
-        "source_conditions": "",
+        "source_conditions": {
+            "exclude_values": {
+                "col": "Ord Stat",
+                "values": [
+                    "Open"
+                ]
+            }
+        },
         "source_table_additional_columns": [
             "Order No",
             "CoP Case",
-            "Bond No."
+            "Bond No.",
+            "Ord Stat"
         ],
         "source_table_name": "order",
         "table_type": "data"
@@ -447,10 +469,18 @@
         "destination_table_name": "supervision_level_log",
         "entity_name": "supervision_level",
         "required_entities": "",
-        "source_conditions": "",
+        "source_conditions": {
+            "exclude_values": {
+                "col": "Ord Stat",
+                "values": [
+                    "Open"
+                ]
+            }
+        },
         "source_table_additional_columns": [
             "Case",
-            "Order No"
+            "Order No",
+            "Ord Stat"
         ],
         "source_table_name": "order",
         "table_type": "data"
