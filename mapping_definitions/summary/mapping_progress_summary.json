@@ -121,15 +121,15 @@
             "percentage_complete": 100
         },
         "client_notes": {
-            "total_rows": 8,
+            "total_rows": 7,
             "total_unmapped": 0,
-            "total_mapped": 8,
+            "total_mapped": 7,
             "percentage_complete": 100
         },
         "deputy_notes": {
-            "total_rows": 8,
+            "total_rows": 7,
             "total_unmapped": 0,
-            "total_mapped": 8,
+            "total_mapped": 7,
             "percentage_complete": 100
         },
         "annual_report_logs": {
@@ -229,9 +229,9 @@
             "total_complete": 1
         },
         "fields": {
-            "total_fields": 395,
+            "total_fields": 393,
             "total_unmapped": 85,
-            "total_mapped": 310,
+            "total_mapped": 308,
             "percentage_complete": 78
         }
     }
