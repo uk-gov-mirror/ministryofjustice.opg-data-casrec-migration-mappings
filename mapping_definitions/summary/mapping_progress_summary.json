@@ -145,10 +145,10 @@
             "percentage_complete": 100
         },
         "annual_report_logs": {
-            "total_rows": 21,
-            "total_unmapped": 15,
-            "total_mapped": 6,
-            "percentage_complete": 29
+            "total_rows": 12,
+            "total_unmapped": 0,
+            "total_mapped": 12,
+            "percentage_complete": 100
         },
         "annual_report_lodging_details": {
             "total_rows": 11,
@@ -241,10 +241,10 @@
             "total_complete": 1
         },
         "fields": {
-            "total_fields": 409,
-            "total_unmapped": 87,
-            "total_mapped": 322,
-            "percentage_complete": 79
+            "total_fields": 400,
+            "total_unmapped": 72,
+            "total_mapped": 328,
+            "percentage_complete": 82
         }
     }
 }
