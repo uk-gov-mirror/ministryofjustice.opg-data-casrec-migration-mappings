@@ -49,34 +49,9 @@
             "sync": ""
         }
     },
-    "digidepsreport": {
-        "mapping_status": {
-            "is_complete": false
-        },
-        "sirius_details": {
-            "is_pk": "",
-            "fk_parents": "",
-            "data_type": "bool",
-            "table_name": "annual_report_lodging_details",
-            "entity": "reporting"
-        },
-        "transform_casrec": {
-            "casrec_table": "",
-            "casrec_column_name": "",
-            "alias": "",
-            "requires_transformation": "",
-            "lookup_table": "",
-            "default_value": "",
-            "calculated": "",
-            "additional_columns": ""
-        },
-        "prepare": {
-            "sync": ""
-        }
-    },
     "deadlinedate": {
         "mapping_status": {
-            "is_complete": false
+            "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
@@ -99,34 +74,9 @@
             "sync": ""
         }
     },
-    "reasonfordetermination": {
-        "mapping_status": {
-            "is_complete": false
-        },
-        "sirius_details": {
-            "is_pk": "",
-            "fk_parents": "",
-            "data_type": "str",
-            "table_name": "annual_report_lodging_details",
-            "entity": "reporting"
-        },
-        "transform_casrec": {
-            "casrec_table": "",
-            "casrec_column_name": "",
-            "alias": "",
-            "requires_transformation": "",
-            "lookup_table": "",
-            "default_value": "",
-            "calculated": "",
-            "additional_columns": ""
-        },
-        "prepare": {
-            "sync": ""
-        }
-    },
     "datereportlodged": {
         "mapping_status": {
-            "is_complete": false
+            "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
@@ -151,7 +101,7 @@
     },
     "lodgedstatus": {
         "mapping_status": {
-            "is_complete": false
+            "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
@@ -176,7 +126,7 @@
     },
     "bankstatementsreceived": {
         "mapping_status": {
-            "is_complete": false
+            "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
@@ -186,35 +136,24 @@
             "entity": "reporting"
         },
         "transform_casrec": {
-            "casrec_table": "",
-            "casrec_column_name": "",
-            "alias": "",
-            "requires_transformation": "",
-            "lookup_table": "",
-            "default_value": "",
-            "calculated": "",
-            "additional_columns": ""
-        },
-        "prepare": {
-            "sync": ""
-        }
-    },
-    "resubmitteddate": {
-        "mapping_status": {
-            "is_complete": false
-        },
-        "sirius_details": {
-            "is_pk": "",
-            "fk_parents": "",
-            "data_type": "date",
-            "table_name": "annual_report_lodging_details",
-            "entity": "reporting"
-        },
-        "transform_casrec": {
-            "casrec_table": "",
-            "casrec_column_name": "",
-            "alias": "",
-            "requires_transformation": "",
+            "casrec_table": "ACCOUNT",
+            "casrec_column_name": [
+                "Rcvd Date1",
+                "Rcvd Date2",
+                "Rcvd Date3",
+                "Rcvd Date4",
+                "Rcvd Date5",
+                "Rcvd Date6"
+            ],
+            "alias": [
+                "Rcvd Date1",
+                "Rcvd Date2",
+                "Rcvd Date3",
+                "Rcvd Date4",
+                "Rcvd Date5",
+                "Rcvd Date6"
+            ],
+            "requires_transformation": "is_at_least_one_set",
             "lookup_table": "",
             "default_value": "",
             "calculated": "",
@@ -226,7 +165,7 @@
     },
     "bankstatementdeadlinedate": {
         "mapping_status": {
-            "is_complete": false
+            "is_complete": true
         },
         "sirius_details": {
             "is_pk": "",
@@ -237,9 +176,23 @@
         },
         "transform_casrec": {
             "casrec_table": "ACCOUNT",
-            "casrec_column_name": "Sent1",
-            "alias": "Sent1",
-            "requires_transformation": "",
+            "casrec_column_name": [
+                "Sent1",
+                "Sent2",
+                "Sent3",
+                "Sent4",
+                "Sent5",
+                "Sent6"
+            ],
+            "alias": [
+                "Sent1",
+                "Sent2",
+                "Sent3",
+                "Sent4",
+                "Sent5",
+                "Sent6"
+            ],
+            "requires_transformation": "get_max_col",
             "lookup_table": "",
             "default_value": "",
             "calculated": "",
@@ -266,7 +219,7 @@
             "alias": "",
             "requires_transformation": "",
             "lookup_table": "",
-            "default_value": "",
+            "default_value": 2.0,
             "calculated": "",
             "additional_columns": ""
         },
